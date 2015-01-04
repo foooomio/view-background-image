@@ -1,6 +1,6 @@
 chrome.contextMenus.create({
 	id: "background_img",
-	title: "背景画像だけを表示"
+	title: chrome.i18n.getMessage('title')
 });
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
@@ -11,7 +11,7 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
 				url: response.slice(4,-1)
 			});
 		} else {
-			alert("背景画像を取得できません。");
+			alert(chrome.i18n.getMessage('failure'));
 		}
 	});
 });

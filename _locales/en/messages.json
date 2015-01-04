@@ -1,0 +1,14 @@
+{
+	"extName": {
+		"message": "View Background Image"
+	},
+	"extDescription": {
+		"message": "View Background Image on your context menu"
+	},
+	"title": {
+		"message": "View Background Image"
+	},
+	"failure": {
+		"message": "Can't get background image"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"extName": {
+		"message": "背景画像を表示"
+	},
+	"extDescription": {
+		"message": "コンテキストメニューに「背景画像だけを表示」項目を追加します。"
+	},
+	"title": {
+		"message": "背景画像だけを表示"
+	},
+	"failure": {
+		"message": "背景画像を取得できません。"
+	}
+}

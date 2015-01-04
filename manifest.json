@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
-	"name": "背景画像を表示",
-	"version": "2.1",
-	"description": "コンテキストメニューに「背景画像だけを表示」項目を追加します。",
+	"name": "__MSG_extName__",
+	"version": "2.1.1",
+	"description": "__MSG_extDescription__",
+	"default_locale": "en",
 	"permissions": ["contextMenus", "tabs", "<all_urls>"],
 	"background": { "scripts": ["script.js"], "persistent": false },
 	"content_scripts": [ { "matches": ["<all_urls>"], "js": ["content.js"] } ],

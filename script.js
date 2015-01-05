@@ -5,7 +5,7 @@ chrome.contextMenus.create({
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
 	chrome.tabs.sendMessage(tab.id, '', function(response) {
-		if(response !== "none") {
+		if(response && response !== "none") {
 			chrome.tabs.create({
 				index: tab.index + 1,
 				url: response.slice(4,-1)

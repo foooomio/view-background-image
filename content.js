@@ -1,7 +1,10 @@
 function getBackgroundImage(element) {
-	if(!element) return "none";
-	var bg = getComputedStyle(element).getPropertyValue('background-image');
-	return bg !== "none" ? bg : getBackgroundImage(element.parentElement);
+	while(element) {
+		var bg = getComputedStyle(element).getPropertyValue('background-image');
+		if(bg !== "none") return bg;
+		element = element.parentElement;
+	}
+	return "none";
 }
 
 var element, listener = function(e) { element = e.target; };

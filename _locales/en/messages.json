@@ -3,12 +3,12 @@
 		"message": "View Background Image"
 	},
 	"extDescription": {
-		"message": "View Background Image on your context menu"
+		"message": "'View Background Image' on your context menu."
 	},
 	"title": {
 		"message": "View Background Image"
 	},
 	"failure": {
-		"message": "Can't get background image"
+		"message": "Can't get the background image."
 	}
 }

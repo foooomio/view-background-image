@@ -1,0 +1,14 @@
+{
+	"extName": {
+		"message": "Visualizza immagine di sfondo"
+	},
+	"extDescription": {
+		"message": "'Visualizza immagine di sfondo' nel menu contestuale."
+	},
+	"title": {
+		"message": "Visualizza immagine di sfondo"
+	},
+	"failure": {
+		"message": "Impossibile ottenere l'immagine di sfondo."
+	}
+}

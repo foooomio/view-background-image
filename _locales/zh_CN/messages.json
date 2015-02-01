@@ -1,0 +1,14 @@
+{
+	"extName": {
+		"message": "查看背景图片"
+	},
+	"extDescription": {
+		"message": "'查看背景图片'上下文菜单上。"
+	},
+	"title": {
+		"message": "查看背景图片"
+	},
+	"failure": {
+		"message": "不能得到的背景图片。"
+	}
+}

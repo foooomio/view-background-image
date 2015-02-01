@@ -1,0 +1,14 @@
+{
+	"extName": {
+		"message": "Ansicht Hintergrundbild"
+	},
+	"extDescription": {
+		"message": "'Ansicht Hintergrundbild' auf dem Kontextmenü."
+	},
+	"title": {
+		"message": "Ansicht Hintergrundbild"
+	},
+	"failure": {
+		"message": "Konnte nicht das Hintergrundbild zu bekommen."
+	}
+}

@@ -9,6 +9,6 @@
 		"message": "Bekijk achtergrondafbeelding"
 	},
 	"failure": {
-		"message": "Kan de achtergrondafbeelding niet krijgen."
+		"message": "Kan de achtergrondafbeelding niet krijgen.\nEen probleem melden?"
 	}
 }

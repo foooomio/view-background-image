@@ -9,6 +9,6 @@
 		"message": "Visualizza immagine di sfondo"
 	},
 	"failure": {
-		"message": "Impossibile ottenere l'immagine di sfondo."
+		"message": "Impossibile ottenere l'immagine di sfondo.\nSegnala un problema?"
 	}
 }

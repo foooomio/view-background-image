@@ -9,6 +9,6 @@
 		"message": "Ansicht Hintergrundbild"
 	},
 	"failure": {
-		"message": "Konnte nicht das Hintergrundbild zu bekommen."
+		"message": "Konnte nicht das Hintergrundbild zu bekommen.\nProblem melden?"
 	}
 }

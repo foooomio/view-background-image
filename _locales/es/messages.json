@@ -9,6 +9,6 @@
 		"message": "Ver imagen del fondo"
 	},
 	"failure": {
-		"message": "No se pudo obtener la imagen de fondo."
+		"message": "No se pudo obtener la imagen de fondo.\n¿Notificar un error?"
 	}
 }

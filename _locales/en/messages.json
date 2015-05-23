@@ -9,6 +9,6 @@
 		"message": "View Background Image"
 	},
 	"failure": {
-		"message": "Failed to get the background image."
+		"message": "Failed to get the background image.\nReport an issue?"
 	}
 }

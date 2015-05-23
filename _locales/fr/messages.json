@@ -9,6 +9,6 @@
 		"message": "Voir l'image de fond"
 	},
 	"failure": {
-		"message": "Impossible d'obtenir l'image de fond."
+		"message": "Impossible d'obtenir l'image de fond.\nSignaler un problème?"
 	}
 }

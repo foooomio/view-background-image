@@ -5,13 +5,17 @@ chrome.contextMenus.create({
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
 	chrome.tabs.sendMessage(tab.id, '', function(response) {
-		if(response && response !== "none") {
+		if(response) {
 			chrome.tabs.create({
 				index: tab.index + 1,
-				url: response.slice(4,-1)
+				url: response
 			});
-		} else {
-			alert(chrome.i18n.getMessage('failure'));
+		} else if(confirm(chrome.i18n.getMessage('failure'))) {
+			var xhr, url = encodeURIComponent(info.frameUrl || info.pageUrl);
+			
+			xhr = new XMLHttpRequest();
+			xhr.open('GET', 'https://script.google.com/macros/s/AKfycbwtacVYsZHc_n4qkVdfvjJE_3__rKwfeqTNNgZKPhH00VoKTAA/exec?url=' + url);
+			xhr.send();
 		}
 	});
 });

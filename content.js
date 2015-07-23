@@ -6,6 +6,15 @@ function getBackgroundImage(element) {
 	}
 }
 
+function getOrdinaryImage(element) {
+	if(element.tagName === 'IMG') return element.src;
+	while(element) {
+		var img = element.getElementsByTagName('img');
+		if(img.length) return img[0].src;
+		element = element.parentElement;
+	}
+}
+
 var target, listener = function(e) { target = e.target; };
 
 document.addEventListener('contextmenu', listener);
@@ -16,6 +25,8 @@ Array.prototype.forEach.call(frames, function(frame) {
 
 chrome.runtime.onMessage.addListener(
 	function(message, sender, sendResponse) {
-		sendResponse(getBackgroundImage(target));
+		sendResponse(
+			getBackgroundImage(target) || getOrdinaryImage(target)
+		);
 	}
 );

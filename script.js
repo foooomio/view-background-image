@@ -1,5 +1,6 @@
 chrome.runtime.onInstalled.addListener(function() {
 	chrome.contextMenus.create({
+		contexts: ['all'],
 		id: 'background_img',
 		title: chrome.i18n.getMessage('title')
 	});

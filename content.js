@@ -1,7 +1,7 @@
 function getBackgroundImage(element) {
 	while(element) {
 		var bg = getComputedStyle(element).getPropertyValue('background-image');
-		if(bg !== "none") return bg.slice(4,-1);
+		if(bg !== "none") return bg.match(/url\("?(.+?)"?\)/)[1];
 		element = element.parentElement;
 	}
 }

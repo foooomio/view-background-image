@@ -6,7 +6,9 @@
 	"default_locale": "en",
 	"permissions": ["contextMenus", "tabs", "<all_urls>"],
 	"background": { "scripts": ["script.js"], "persistent": false },
-	"content_scripts": [ { "matches": ["<all_urls>"], "js": ["content.js"] } ],
+	"content_scripts": [
+		{ "matches": ["<all_urls>"], "js": ["content.js"], "all_frames": true }
+	],
 	"icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
 }
 

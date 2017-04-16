@@ -9,7 +9,7 @@ chrome.runtime.onInstalled.addListener(function() {
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
 	chrome.tabs.sendMessage(tab.id, '', function(response) {
 		if(response) {
-			response.split(',').forEach(function(image) {
+			response.split(' ').forEach(function(image) {
 				chrome.tabs.create({
 					index: tab.index + 1,
 					url: image

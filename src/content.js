@@ -1,6 +1,6 @@
 function getBackgroundImage(element) {
 	var bg = getComputedStyle(element).getPropertyValue('background-image');
-	if(bg !== "none") return bg.match(/url\("?(.+?)"?\)/)[1];
+	if(bg !== "none" && bg.match(/url\("?(.+?)"?\)/)) return RegExp.$1;
 }
 
 function getNormalImage(element) {
@@ -16,7 +16,7 @@ document.addEventListener('contextmenu', function(e) {
 		var image = getBackgroundImage(elements[i]) || getNormalImage(elements[i]);
 		if(image) images.push(image);
 	}
-	window.top.postMessage(IDENTIFIER + images.toString(), '*');
+	window.top.postMessage(IDENTIFIER + images.join(' '), '*');
 });
 
 if(window.self === window.top) {

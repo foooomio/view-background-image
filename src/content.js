@@ -7,16 +7,21 @@ function getNormalImage(element) {
 	if(element.tagName === 'IMG') return element.src;
 }
 
-var IDENTIFIER = 'view-background-image:';
-
-document.addEventListener('contextmenu', function(e) {
+function getImages(element, x, y) {
 	var images = [];
-	var elements = document.elementsFromPoint(e.clientX, e.clientY);
+	var elements = element.elementsFromPoint(x, y);
 	for(var i = 0, max = elements.length; i < max; i++) {
+		if(elements[i].shadowRoot) images = images.concat(getImages(elements[i].shadowRoot, x, y));
 		var image = getBackgroundImage(elements[i]) || getNormalImage(elements[i]);
 		if(image) images.push(image);
 	}
-	window.top.postMessage(IDENTIFIER + images.join(' '), '*');
+	return images;
+}
+
+var IDENTIFIER = 'view-background-image:';
+
+document.addEventListener('contextmenu', function(e) {
+	window.top.postMessage(IDENTIFIER + getImages(document, e.clientX, e.clientY).join(' '), '*');
 });
 
 if(window.self === window.top) {

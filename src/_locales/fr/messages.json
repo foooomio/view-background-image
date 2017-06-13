@@ -1,14 +1,14 @@
 {
-	"extName": {
-		"message": "Voir l'image de fond"
-	},
-	"extDescription": {
-		"message": "'Voir l'image de fond' de votre menu contextuel."
-	},
-	"title": {
-		"message": "Voir l'image de fond"
-	},
-	"failure": {
-		"message": "Impossible d'obtenir l'image de fond.\nSignaler un problème?"
-	}
+    "extName": {
+        "message": "Voir l'image de fond"
+    },
+    "extDescription": {
+        "message": "'Voir l'image de fond' de votre menu contextuel."
+    },
+    "title": {
+        "message": "Voir l'image de fond"
+    },
+    "failure": {
+        "message": "Impossible d'obtenir l'image de fond.\nSignaler un problème?"
+    }
 }

@@ -1,14 +1,14 @@
 {
-	"extName": {
-		"message": "查看背景圖片"
-	},
-	"extDescription": {
-		"message": "'查看背景圖片'上下文菜單。"
-	},
-	"title": {
-		"message": "查看背景圖片"
-	},
-	"failure": {
-		"message": "不能得到的背景圖片。\n報告問題？"
-	}
+    "extName": {
+        "message": "查看背景圖片"
+    },
+    "extDescription": {
+        "message": "'查看背景圖片'上下文菜單。"
+    },
+    "title": {
+        "message": "查看背景圖片"
+    },
+    "failure": {
+        "message": "不能得到的背景圖片。\n報告問題？"
+    }
 }

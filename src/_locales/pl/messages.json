@@ -1,14 +1,14 @@
 {
-   "extDescription": {
-      "message": "'Pokaż obrazek tła' w menu kontekstowym."
-   },
-   "extName": {
-      "message": "Pokaż obrazek tła"
-   },
-   "failure": {
-      "message": "Nie udało się uzyskać obraz tła.\nChcesz zgłosić błąd?"
-   },
-   "title": {
-      "message": "Pokaż obrazek tła"
-   }
+    "extDescription": {
+        "message": "'Pokaż obrazek tła' w menu kontekstowym."
+    },
+    "extName": {
+        "message": "Pokaż obrazek tła"
+    },
+    "failure": {
+        "message": "Nie udało się uzyskać obraz tła.\nChcesz zgłosić błąd?"
+    },
+    "title": {
+        "message": "Pokaż obrazek tła"
+    }
 }

@@ -1,14 +1,14 @@
 {
-	"extName": {
-		"message": "View Background Image"
-	},
-	"extDescription": {
-		"message": "'View Background Image' on your context menu."
-	},
-	"title": {
-		"message": "View Background Image"
-	},
-	"failure": {
-		"message": "Failed to get the background image.\nReport an issue?"
-	}
+    "extName": {
+        "message": "View Background Image"
+    },
+    "extDescription": {
+        "message": "'View Background Image' on your context menu."
+    },
+    "title": {
+        "message": "View Background Image"
+    },
+    "failure": {
+        "message": "Failed to get the background image.\nReport an issue?"
+    }
 }

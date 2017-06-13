@@ -1,14 +1,14 @@
 {
-	"extName": {
-		"message": "Bekijk achtergrondafbeelding"
-	},
-	"extDescription": {
-		"message": "'Bekijk achtergrondafbeelding' op uw context menu."
-	},
-	"title": {
-		"message": "Bekijk achtergrondafbeelding"
-	},
-	"failure": {
-		"message": "Kan de achtergrondafbeelding niet krijgen.\nEen probleem melden?"
-	}
+    "extName": {
+        "message": "Bekijk achtergrondafbeelding"
+    },
+    "extDescription": {
+        "message": "'Bekijk achtergrondafbeelding' op uw context menu."
+    },
+    "title": {
+        "message": "Bekijk achtergrondafbeelding"
+    },
+    "failure": {
+        "message": "Kan de achtergrondafbeelding niet krijgen.\nEen probleem melden?"
+    }
 }

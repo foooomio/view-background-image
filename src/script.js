@@ -6,7 +6,7 @@
 
 chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
-        contexts: ['all'],
+        contexts: ['page', 'frame', 'selection', 'link', 'editable',  'image', 'video', 'audio'],
         id: 'background_img',
         title: chrome.i18n.getMessage('title')
     });

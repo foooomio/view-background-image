@@ -22,10 +22,10 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
                 });
             });
         } else if(confirm(chrome.i18n.getMessage('failure'))) {
-            const url = encodeURIComponent(info.frameUrl || info.pageUrl);
-            const xhr = new XMLHttpRequest();
-            xhr.open('GET', 'https://script.google.com/macros/s/AKfycbwtacVYsZHc_n4qkVdfvjJE_3__rKwfeqTNNgZKPhH00VoKTAA/exec?url=' + url);
-            xhr.send();
+            chrome.tabs.create({
+                index: tab.index + 1,
+                url: 'https://chrome.google.com/webstore/detail/cegndknljaapfbnmfnagomhhgbajjibd/support'
+            });
         }
     });
 });

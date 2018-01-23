@@ -24,7 +24,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
         } else if(confirm(chrome.i18n.getMessage('failure'))) {
             chrome.tabs.create({
                 index: tab.index + 1,
-                url: 'https://chrome.google.com/webstore/detail/cegndknljaapfbnmfnagomhhgbajjibd/support'
+                url: 'https://github.com/foooomio/view-background-image/issues'
             });
         }
     });

@@ -39,7 +39,9 @@ Object.defineProperties(Element.prototype, {
     },
     getNormalImage: {
         value: function() {
-            if (this.tagName === 'IMG') return this.src;
+            if (this.tagName === 'IMG') {
+                return this.currentSrc || this.src;
+            }
         }
     }
 });

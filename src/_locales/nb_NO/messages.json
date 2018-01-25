@@ -1,0 +1,14 @@
+{
+    "extDescription": {
+        " message " : " 'Se bakgrunnsbilde' i kontekstmenyen. "
+    },
+    "extName": {
+        " message " : " Se bakgrunnsbilde "
+    },
+    "failure": {
+        " message " : " Kunne ikke få tak i bakgrunnsbilde \ n Vil du rapportere en feil? "
+    },
+    "title": {
+        " message " : " Se bakgrunnsbilde "
+    }
+}

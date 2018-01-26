@@ -1,14 +1,14 @@
 {
-    "extDescription": {
-        "message" : "'Se bakgrunnsbilde' i kontekstmenyen."
-    },
     "extName": {
         "message" : "Se bakgrunnsbilde"
     },
-    "failure": {
-        "message" : "Kunne ikke få tak i bakgrunnsbilde \ n Vil du rapportere en feil?"
+    "extDescription": {
+        "message" : "'Se bakgrunnsbilde' i kontekstmenyen."
     },
     "title": {
         "message" : "Se bakgrunnsbilde"
+    },
+    "failure": {
+        "message" : "Kunne ikke få tak i bakgrunnsbilde.\nVil du rapportere en feil?"
     }
 }

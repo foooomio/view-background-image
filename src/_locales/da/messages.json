@@ -1,0 +1,17 @@
+{
+    "extName": {
+        "message": "Vis baggrundsbillede"
+    },
+    "extDescription": {
+        "message": "\"Vis baggrundsbillede\" i kontekstmenuen."
+    },
+    "title": {
+        "message": "Vis baggrundsbillede"
+    },
+    "reload": {
+        "message": "Venligst genindlæs fanen."
+    },
+    "failure": {
+        "message": "Kunne ikke få baggrundsbilledet.\nRapportér et problem?"
+    }
+}

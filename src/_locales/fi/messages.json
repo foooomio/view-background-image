@@ -1,0 +1,17 @@
+{
+    "extName": {
+        "message": "Näytä taustakuva"
+    },
+    "extDescription": {
+        "message": "\"Näytä taustakuva\" in contextmenu."
+    },
+    "title": {
+        "message": "Näytä taustakuva"
+    },
+    "reload": {
+        "message": "Lataa uudelleen välilehti."
+    },
+    "failure": {
+        "message": "Taustakuvan saaminen epäonnistui.\nIlmoita ongelma?"
+    }
+}

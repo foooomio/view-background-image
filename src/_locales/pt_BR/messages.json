@@ -1,0 +1,17 @@
+{
+    "extName": {
+        "message": "Ver imagem de fundo"
+    },
+    "extDescription": {
+        "message": "\"Ver imagem de fundo\" no menu de contexto."
+    },
+    "title": {
+        "message": "Ver imagem de fundo"
+    },
+    "reload": {
+        "message": "Por favor, recarregue a aba."
+    },
+    "failure": {
+        "message": "Falha ao obter a imagem de plano de fundo.\nInformar um problema?"
+    }
+}

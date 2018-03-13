@@ -1,0 +1,17 @@
+{
+    "extName": {
+        "message": "Zobrazit obrázek na pozadí"
+    },
+    "extDescription": {
+        "message": "\"Zobrazit obrázek na pozadí\" v místní nabídce."
+    },
+    "title": {
+        "message": "Zobrazit obrázek na pozadí"
+    },
+    "reload": {
+        "message": "Znovu načtěte kartu."
+    },
+    "failure": {
+        "message": "Nepodařilo se získat obrázek na pozadí.\nNahlásit problém?"
+    }
+}

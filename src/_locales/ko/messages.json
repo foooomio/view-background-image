@@ -1,0 +1,17 @@
+{
+    "extName": {
+        "message": "배경 이미지 보기"
+    },
+    "extDescription": {
+        "message": "컨텍스트 메뉴에서 \"배경 이미지보기\"."
+    },
+    "title": {
+        "message": "배경 이미지 보기"
+    },
+    "reload": {
+        "message": "탭을 다시로드하십시오."
+    },
+    "failure": {
+        "message": "배경 이미지를 가져 오는 데 실패했습니다.\n문제를 신고 하시겠습니까?"
+    }
+}

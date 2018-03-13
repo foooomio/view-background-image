@@ -1,12 +1,15 @@
 {
     "extName": {
-        "message": "Voir l'image de fond"
+        "message": "Afficher l'image de fond"
     },
     "extDescription": {
-        "message": "'Voir l'image de fond' de votre menu contextuel."
+        "message": "\"Afficher l'image de fond\" dans le menu contextuel."
     },
     "title": {
-        "message": "Voir l'image de fond"
+        "message": "Afficher l'image de fond"
+    },
+    "reload": {
+        "message": "Veuillez recharger l'onglet."
     },
     "failure": {
         "message": "Impossible d'obtenir l'image de fond.\nSignaler un problème?"

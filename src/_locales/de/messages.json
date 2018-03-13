@@ -1,14 +1,17 @@
 {
     "extName": {
-        "message": "Hintergrundbild Anzeigen"
+        "message": "Hintergrundgrafik anzeigen"
     },
     "extDescription": {
-        "message": "'Zeige Hintergrundbild' im Kontextmenü."
+        "message": "\"Hintergrundgrafik anzeigen\" im Kontextmenü."
     },
     "title": {
-        "message": "Hintergrundbild Anzeigen"
+        "message": "Hintergrundgrafik anzeigen"
+    },
+    "reload": {
+        "message": "Bitte Lade die Registerkarte neu."
     },
     "failure": {
-        "message": "Das Hintergrundbild konnte nicht erkannt werden."
+        "message": "Das Hintergrundgrafik konnte nicht abgerufen werden.\nEin Problem melden?"
     }
 }

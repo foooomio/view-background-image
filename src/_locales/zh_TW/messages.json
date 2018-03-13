@@ -1,12 +1,15 @@
 {
     "extName": {
-        "message": "查看背景圖片"
+        "message": "檢視背景圖片"
     },
     "extDescription": {
-        "message": "'查看背景圖片'上下文菜單。"
+        "message": "\"檢視背景圖片\"上下文菜單。"
     },
     "title": {
-        "message": "查看背景圖片"
+        "message": "檢視背景圖片"
+    },
+    "reload": {
+        "message": "請重新加載標籤。"
     },
     "failure": {
         "message": "不能得到的背景圖片。\n報告問題？"

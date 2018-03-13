@@ -3,10 +3,13 @@
         "message": "View Background Image"
     },
     "extDescription": {
-        "message": "'View Background Image' on your context menu."
+        "message": "\"View Background Image\" in context menu."
     },
     "title": {
         "message": "View Background Image"
+    },
+    "reload": {
+        "message": "Please reload the tab."
     },
     "failure": {
         "message": "Failed to get the background image.\nReport an issue?"

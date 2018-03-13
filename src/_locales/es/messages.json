@@ -1,14 +1,17 @@
 {
     "extName": {
-        "message": "Ver imagen del fondo"
+        "message": "Ver imagen de fondo"
     },
     "extDescription": {
-        "message": "'Ver imagen del fondo' en el menú contextual."
+        "message": "\"Ver imagen de fondo\" en el menú contextual."
     },
     "title": {
-        "message": "Ver imagen del fondo"
+        "message": "Ver imagen de fondo"
+    },
+    "reload": {
+        "message": "Por favor, vuelva a cargar la pestaña."
     },
     "failure": {
-        "message": "No se pudo obtener la imagen de fondo.\n¿Notificar un error?"
+        "message": "Error al obtener la imagen de fondo.\n¿Reportar un problema?"
     }
 }

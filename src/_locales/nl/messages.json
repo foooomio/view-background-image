@@ -1,12 +1,15 @@
 {
     "extName": {
-        "message": "Bekijk achtergrondafbeelding"
+        "message": "Achtergrondafbeelding bekijken"
     },
     "extDescription": {
-        "message": "'Bekijk achtergrondafbeelding' op uw context menu."
+        "message": "\"Achtergrondafbeelding bekijken\" in contextmenu."
     },
     "title": {
-        "message": "Bekijk achtergrondafbeelding"
+        "message": "Achtergrondafbeelding bekijken"
+    },
+    "reload": {
+        "message": "Laad het tabblad opnieuw."
     },
     "failure": {
         "message": "Kan de achtergrondafbeelding niet krijgen.\nEen probleem melden?"

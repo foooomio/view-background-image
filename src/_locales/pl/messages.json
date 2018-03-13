@@ -1,14 +1,17 @@
 {
-    "extDescription": {
-        "message": "'Pokaż obrazek tła' w menu kontekstowym."
-    },
     "extName": {
-        "message": "Pokaż obrazek tła"
+        "message": "Pokaż obraz tła"
     },
-    "failure": {
-        "message": "Nie udało się uzyskać obraz tła.\nChcesz zgłosić błąd?"
+    "extDescription": {
+        "message": "\"Pokaż obraz tła\" w menu kontekstowym."
     },
     "title": {
-        "message": "Pokaż obrazek tła"
+        "message": "Pokaż obraz tła"
+    },
+    "reload": {
+        "message": "Załaduj kartę ponownie."
+    },
+    "failure": {
+        "message": "Nie udało się uzyskać obrazu tła.\nChcesz zgłosić błąd?"
     }
 }

@@ -3,10 +3,13 @@
         "message" : "Se bakgrunnsbilde"
     },
     "extDescription": {
-        "message" : "'Se bakgrunnsbilde' i kontekstmenyen."
+        "message" : "\"Se bakgrunnsbilde\" i kontekstmenyen."
     },
     "title": {
         "message" : "Se bakgrunnsbilde"
+    },
+    "reload": {
+        "message": "Venligst fyll inn kategorien."
     },
     "failure": {
         "message" : "Kunne ikke få tak i bakgrunnsbilde.\nVil du rapportere en feil?"

@@ -3,10 +3,13 @@
         "message": "Visualizza immagine di sfondo"
     },
     "extDescription": {
-        "message": "'Visualizza immagine di sfondo' nel menu contestuale."
+        "message": "\"Visualizza immagine di sfondo\" nel menu contestuale."
     },
     "title": {
         "message": "Visualizza immagine di sfondo"
+    },
+    "reload": {
+        "message": "Si prega di ricaricare la scheda."
     },
     "failure": {
         "message": "Impossibile ottenere l'immagine di sfondo.\nSegnala un problema?"

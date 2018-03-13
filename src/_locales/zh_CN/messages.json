@@ -1,14 +1,17 @@
 {
     "extName": {
-        "message": "查看背景图片"
+        "message": "查看背景图像"
     },
     "extDescription": {
-        "message": "'查看背景图片'上下文菜单上。"
+        "message": "\"查看背景图像\"上下文菜单上。"
     },
     "title": {
-        "message": "查看背景图片"
+        "message": "查看背景图像"
+    },
+    "reload": {
+        "message": "请重新加载标签。"
     },
     "failure": {
-        "message": "不能得到的背景图片。\n报告问题？"
+        "message": "不能得到的背景图像。\n报告问题？"
     }
 }

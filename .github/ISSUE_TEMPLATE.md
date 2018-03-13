@@ -33,7 +33,7 @@ Before reporting an issue
 
 ### Extension Version
 
-<!-- You can find it on chrome://extensions -->
+<!-- You can find it on chrome://extensions/?id=cegndknljaapfbnmfnagomhhgbajjibd -->
 
 
 <!-- Thank you for your cooperation. -->

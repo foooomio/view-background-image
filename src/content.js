@@ -4,40 +4,43 @@
 
 'use strict';
 
-Object.defineProperty(Node.prototype, 'getImages', {
+Object.defineProperty(Node.prototype, 'getBackgroundImages', {
     value: function(x, y) {
         const elements = this.elementsFromPoint(x, y).filter(
-            node => node instanceof Element
+            element => element instanceof Element
         );
 
-        return elements.reduce((acc, element) => {
-            let images = [
-                element.getBackgroundImage(),
-                element.getBackgroundImage('::before'),
-                element.getBackgroundImage('::after'),
-                element.getNormalImage()
+        const images = elements.reduce((acc, element) => {
+            const array = [
+                element.getImageFromStyle(),
+                element.getImageFromStyle('::before'),
+                element.getImageFromStyle('::after'),
+                element.getImageFromSrc()
             ];
 
             if (element.shadowRoot) {
-                images = images.concat(element.shadowRoot.getImages(x, y));
+                return acc.concat(
+                    array, element.shadowRoot.getBackgroundImages(x, y)
+                );
             }
 
-            return acc.concat(images);
+            return acc.concat(array);
         }, []);
+
+        return images.compact();
     }
 });
 
 Object.defineProperties(Element.prototype, {
-    getBackgroundImage: {
+    getImageFromStyle: {
         value: function(pseudo) {
             const style = getComputedStyle(this, pseudo);
             const value = style.getPropertyValue('background-image');
-            if (value !== 'none' && value.match(/url\("?(.+?)"?\)/)) {
-                return RegExp.$1;
-            }
+            const matches = /url\("?(.+?)"?\)/.exec(value);
+            return matches ? matches[1] : null;
         }
     },
-    getNormalImage: {
+    getImageFromSrc: {
         value: function() {
             if (this.tagName === 'IMG') {
                 return this.currentSrc || this.src;
@@ -46,27 +49,24 @@ Object.defineProperties(Element.prototype, {
     }
 });
 
-const IDENTIFIER = 'view-background-image:';
-
-document.addEventListener('contextmenu', e => {
-    const images = document.getImages(e.clientX, e.clientY);
-
-    const message = images.filter((value, index, array) =>
-        value && array.indexOf(value) === index
-    ).join(' ');
-
-    window.top.postMessage(IDENTIFIER + message, '*');
+Object.defineProperties(Array.prototype, {
+    compact: {
+        value: function() {
+            return this.filter((value, index, array) =>
+                value && array.indexOf(value) === index
+            );
+        }
+    }
 });
 
-if (window.self === window.top) {
-    let images;
-    window.addEventListener('message', e => {
-        if (e.data.indexOf && e.data.indexOf(IDENTIFIER) === 0) {
-            images = e.data.slice(IDENTIFIER.length);
-        }
+{
+    let images = [];
+
+    document.addEventListener('contextmenu', e => {
+        images = document.getBackgroundImages(e.clientX, e.clientY);
     });
+
     chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-        sendResponse(images);
+        sendResponse(images.join(' '));
     });
 }
-

@@ -13,7 +13,7 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-    chrome.tabs.sendMessage(tab.id, '', response => {
+    chrome.tabs.sendMessage(tab.id, '', { frameId: info.frameId }, response => {
 
         if (response === undefined) {
             alert(chrome.i18n.getMessage('reload'));

@@ -18,11 +18,15 @@ Object.defineProperty(Node.prototype, 'getBackgroundImages', {
                 element.getImageFromSrc()
             ];
 
+            // Disabled because Shadow DOM is unstable
+            // See https://github.com/foooomio/view-background-image/issues/12
+            /*
             if (element.shadowRoot) {
                 return acc.concat(
                     array, element.shadowRoot.getBackgroundImages(x, y)
                 );
             }
+            */
 
             return acc.concat(array);
         }, []);

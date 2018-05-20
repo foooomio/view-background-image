@@ -1,10 +1,14 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "webextensions": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017
     },
     "extends": "eslint:recommended",
     "rules": {
+        "no-console": "off",
         "indent": [
             "error",
             4
@@ -21,8 +25,5 @@
             "error",
             "always"
         ]
-    },
-    "globals": {
-        "chrome": false
     }
 }

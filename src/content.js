@@ -31,7 +31,10 @@ Object.defineProperty(Node.prototype, 'getBackgroundImages', {
             return acc.concat(array);
         }, []);
 
-        return images.compact();
+        // Unique and Compact
+        return images.filter((value, index, array) =>
+            value && array.indexOf(value) === index
+        );
     }
 });
 
@@ -49,16 +52,6 @@ Object.defineProperties(Element.prototype, {
             if (this.tagName === 'IMG') {
                 return this.currentSrc || this.src;
             }
-        }
-    }
-});
-
-Object.defineProperties(Array.prototype, {
-    compact: {
-        value: function() {
-            return this.filter((value, index, array) =>
-                value && array.indexOf(value) === index
-            );
         }
     }
 });

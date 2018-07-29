@@ -6,8 +6,8 @@
 
 Object.defineProperty(Node.prototype, 'getBackgroundImages', {
     value: function(x, y) {
-        const elements = this.elementsFromPoint(x, y).filter(
-            element => element instanceof Element
+        const elements = this.elementsFromPoint(x, y).filter(element =>
+            element instanceof Element && element.getRootNode() === this
         );
 
         const images = elements.reduce((acc, element) => {
@@ -18,15 +18,11 @@ Object.defineProperty(Node.prototype, 'getBackgroundImages', {
                 element.getImageFromSrc()
             ];
 
-            // Disabled because Shadow DOM is unstable
-            // See https://github.com/foooomio/view-background-image/issues/12
-            /*
             if (element.shadowRoot) {
                 return acc.concat(
                     array, element.shadowRoot.getBackgroundImages(x, y)
                 );
             }
-            */
 
             return acc.concat(array);
         }, []);

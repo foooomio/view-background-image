@@ -1,0 +1,16 @@
+{
+    "name": "view-background-image",
+    "version": "2.6.0",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/foooomio/view-background-image.git"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "mocha": "^5.2.0",
+        "puppeteer": "^1.6.0"
+    }
+}

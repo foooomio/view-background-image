@@ -1,10 +1,13 @@
 {
     "env": {
         "browser": true,
+        "es6": true,
+        "mocha": true,
+        "node": true,
         "webextensions": true
     },
     "parserOptions": {
-        "ecmaVersion": 2017
+        "ecmaVersion": 2018
     },
     "extends": "eslint:recommended",
     "rules": {

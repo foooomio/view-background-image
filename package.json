@@ -4,10 +4,7 @@
     "scripts": {
         "test": "mocha"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/foooomio/view-background-image.git"
-    },
+    "private": true,
     "license": "MIT",
     "devDependencies": {
         "mocha": "^5.2.0",

@@ -19,6 +19,7 @@ describe('getBackgroundImages', function() {
     });
 
     after(async function() {
+        console.log('\non ' + await browser.version());
         await browser.close();
     });
 

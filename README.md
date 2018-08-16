@@ -2,16 +2,24 @@
 Google Chrome extension to add a function to view background images
 
 ## Installation
+
 [![Install the extension](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/cegndknljaapfbnmfnagomhhgbajjibd)
 
+This extension requires permission to access your data on all websites only for viewing background images.
+
 ## Usage
-**[Important]** After installing the extension, __reload the pages__.
 
-1. Open the context menu _(usually Right-click)_.
-2. Select `View background image`.
-3. Display the images on new tabs.
+1. Install the extension and __reload tabs__.
+2. Open the context menu on an image which you want to view.
+3. Select `View background image`.
+4. Images under the mouse cursor will be displayed on new tabs.
 
-The images under the mouse cursor will be displayed.
+## Known Issues
+
+It is technically impossible to view background images on the following conditions:
+
+* SVG images
+* Inner closed Shadow DOM (e.g. [Embedded Tweets](https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview.html))
 
 ## Contributing
 

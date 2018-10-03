@@ -8,6 +8,6 @@
     "license": "MIT",
     "devDependencies": {
         "mocha": "^5.2.0",
-        "puppeteer": "^1.6.0"
+        "puppeteer-core": "^1.8.0"
     }
 }

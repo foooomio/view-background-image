@@ -1,7 +1,7 @@
 const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 
 const launchOptions = {
     executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'

@@ -1,5 +1,5 @@
 # View Background Image
-Google Chrome extension to add a function to view background images
+Chrome extension that adds "View background image" to the context menu
 
 ## Installation
 
@@ -18,7 +18,7 @@ This extension requires permission to access your data on all websites only for 
 
 It is technically impossible to view background images on the following conditions:
 
-* SVG images
+* Inline SVG (Experimentally supported)
 * Inner closed Shadow DOM (e.g. [Embedded Tweets](https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview.html))
 
 ## Contributing

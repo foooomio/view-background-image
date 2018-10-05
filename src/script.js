@@ -20,7 +20,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
             return;
         }
 
-        if (response === '' || typeof response !== 'string') {
+        if (!Array.isArray(response) || response.length === 0) {
             if (confirm(chrome.i18n.getMessage('failure'))) {
                 chrome.tabs.create({
                     index: tab.index + 1,
@@ -30,7 +30,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
             return;
         }
 
-        response.split(' ').map(image => {
+        response.forEach(image => {
             chrome.tabs.create({
                 index: tab.index + 1,
                 url: image

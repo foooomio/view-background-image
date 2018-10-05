@@ -4,62 +4,78 @@
 
 'use strict';
 
-Object.defineProperty(Node.prototype, 'getBackgroundImages', {
-    value: function(x, y) {
-        const elements = this.elementsFromPoint(x, y).filter(element =>
-            element instanceof Element && element.getRootNode() === this
-        );
+/**
+ * @param {Document|ShadowRoot} node
+ * @param {number} x
+ * @param {number} y
+ * @returns {Promise<string[]>}
+ */
+async function getBackgroundImages(node, x, y) {
+    /** @type {Set<string>} */
+    const images = new Set();
 
-        const images = elements.reduce((acc, element) => {
-            const array = [
-                element.getImageFromStyle(),
-                element.getImageFromStyle('::before'),
-                element.getImageFromStyle('::after'),
-                element.getImageFromSrc()
-            ];
+    for (const element of node.elementsFromPoint(x, y)) {
+        if (!(element instanceof Element) || element.getRootNode() !== node) continue;
 
-            if (element.shadowRoot) {
-                return acc.concat(
-                    array, element.shadowRoot.getBackgroundImages(x, y)
-                );
-            }
-
-            return acc.concat(array);
-        }, []);
-
-        // Unique and Compact
-        return images.filter((value, index, array) =>
-            value && array.indexOf(value) === index
-        );
-    }
-});
-
-Object.defineProperties(Element.prototype, {
-    getImageFromStyle: {
-        value: function(pseudo) {
-            const style = getComputedStyle(this, pseudo);
-            const value = style.getPropertyValue('background-image');
-            const matches = /url\("?(.+?)"?\)/.exec(value);
-            return matches ? matches[1] : null;
+        for (const pseudo of ['', '::before', '::after']) {
+            const result = getComputedBackgroundImage(element, pseudo);
+            if (result) images.add(result);
         }
-    },
-    getImageFromSrc: {
-        value: function() {
-            if (this.tagName === 'IMG') {
-                return this.currentSrc || this.src;
+
+        if (element instanceof HTMLImageElement) {
+            images.add(element.currentSrc);
+        } else if (element instanceof SVGSVGElement) {
+            if (element.ownerDocument.contentType === 'image/svg+xml') {
+                // Object tag
+                images.add(element.ownerDocument.URL);
+            } else {
+                // Inline SVG
+                images.add(getSVGDataURI(element));
             }
         }
-    }
-});
 
-{
-    let images = [];
+        if (element.shadowRoot) {
+            const results = await getBackgroundImages(element.shadowRoot, x, y);
+            results.forEach(result => images.add(result));
+        }
+    }
+
+    return [...images];
+}
+
+/**
+ * @param {Element} element
+ * @param {string} [pseudo]
+ * @returns {?string}
+ */
+function getComputedBackgroundImage(element, pseudo) {
+    const style = getComputedStyle(element, pseudo);
+    const value = style.getPropertyValue('background-image');
+    const matches = /url\("?(.+?)"?\)/.exec(value);
+    return matches ? matches[1].replace(/\\"/g,'"') : null;
+}
+
+/**
+ * @param {SVGSVGElement} element
+ * @returns {string}
+ */
+function getSVGDataURI(element) {
+    const svg = element.cloneNode(true);
+    svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+    svg.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
+    return 'data:image/svg+xml,' + svg.outerHTML;
+}
+
+if (chrome.runtime.onMessage) {
+    /** @type {Promise<string[]>} */
+    let promise;
 
     document.addEventListener('contextmenu', e => {
-        images = document.getBackgroundImages(e.clientX, e.clientY);
+        promise = getBackgroundImages(document, e.clientX, e.clientY);
     });
 
     chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-        sendResponse(images.join(' '));
+        promise.then(images => sendResponse(images));
+        return true;
     });
 }

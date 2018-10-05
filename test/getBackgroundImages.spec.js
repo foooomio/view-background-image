@@ -31,8 +31,9 @@ describe('getBackgroundImages', function() {
             await page.goto('file://' + path.resolve(testCaseDir, filename));
             await page.addScriptTag({ path: contentScript });
 
+            /* global getBackgroundImages */
             const results = await page.evaluate(
-                (x, y) => document.getBackgroundImages(x, y), point.x, point.y
+                (x, y) => getBackgroundImages(document, x, y), point.x, point.y
             );
 
             const actual = results.map(r => path.basename(r));

@@ -15,7 +15,7 @@ async function getBackgroundImages(node, x, y) {
     const images = new Set();
 
     for (const element of node.elementsFromPoint(x, y)) {
-        if (!(element instanceof Element) || element.getRootNode() !== node) continue;
+        if (element.getRootNode() !== node) continue;
 
         for (const pseudo of ['', '::before', '::after']) {
             const result = getComputedBackgroundImage(element, pseudo);

@@ -66,7 +66,7 @@ function getSVGDataURI(element) {
     return 'data:image/svg+xml,' + svg.outerHTML;
 }
 
-if (chrome.runtime.onMessage) {
+if (chrome.runtime) {
     /** @type {Promise<string[]>} */
     let promise;
 

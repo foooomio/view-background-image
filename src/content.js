@@ -18,8 +18,8 @@ async function getBackgroundImages(node, x, y) {
         if (element.getRootNode() !== node) continue;
 
         for (const pseudo of ['', '::before', '::after']) {
-            const result = getComputedBackgroundImage(element, pseudo);
-            if (result) images.add(result);
+            const results = getComputedBackgroundImages(element, pseudo);
+            results.forEach(result => images.add(result));
         }
 
         if (element instanceof HTMLImageElement) {
@@ -46,13 +46,16 @@ async function getBackgroundImages(node, x, y) {
 /**
  * @param {Element} element
  * @param {string} [pseudo]
- * @returns {?string}
+ * @returns {string[]}
  */
-function getComputedBackgroundImage(element, pseudo) {
+function getComputedBackgroundImages(element, pseudo) {
     const style = getComputedStyle(element, pseudo);
     const value = style.getPropertyValue('background-image');
-    const matches = /url\("?(.+?)"?\)/.exec(value);
-    return matches ? matches[1].replace(/\\"/g,'"') : null;
+    const results = [];
+    value.replace(/url\("?(.+?)"?\)/g, (match, p) => {
+        results.push(p.replace(/\\"/g,'"'));
+    });
+    return results;
 }
 
 /**

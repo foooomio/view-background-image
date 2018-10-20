@@ -14,8 +14,9 @@ async function getBackgroundImages(node, x, y) {
     /** @type {Set<string>} */
     const images = new Set();
 
-    for (const element of node.elementsFromPoint(x, y)) {
-        if (element.getRootNode() !== node) continue;
+    for (const element of node.querySelectorAll('*')) {
+        const rect = element.getBoundingClientRect();
+        if (x < rect.left || rect.right < x || y < rect.top || rect.bottom < y) continue;
 
         for (const pseudo of ['', '::before', '::after']) {
             const results = getComputedBackgroundImages(element, pseudo);

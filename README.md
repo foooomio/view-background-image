@@ -16,10 +16,12 @@ This extension requires permission to access your data on all websites only for 
 
 ## Known Issues
 
-It is technically impossible to view background images on the following conditions:
+It is technically impossible to view background images:
 
-* Inline SVG (Experimentally supported)
-* Inner closed Shadow DOM (e.g. [Embedded Tweets](https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview.html))
+* [CSS Paint API](https://developers.google.com/web/updates/2018/01/paintapi?hl=en)
+* [Closed Shadow DOM](https://developers.google.com/web/fundamentals/web-components/shadowdom?hl=en#closed) (e.g., [Embedded Tweets](https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview.html))
+* Some inline SVGs
+
 
 ## Contributing
 

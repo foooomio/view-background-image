@@ -4,7 +4,8 @@
 
 'use strict';
 
-chrome.runtime.onInstalled.addListener(() => {
+chrome.runtime.onInstalled.addListener(details => {
+    if (details.reason === 'chrome_update') return;
     chrome.contextMenus.create({
         contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
         id: 'background_img',

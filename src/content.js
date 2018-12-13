@@ -6,11 +6,13 @@
 
 /**
  * @param {Document|ShadowRoot} node
- * @param {number} x
- * @param {number} y
- * @returns {Promise<string[]>}
+ * @param {number} x > 0
+ * @param {number} y > 0
+ * @returns {string[]}
  */
-async function getBackgroundImages(node, x, y) {
+function getBackgroundImages(node, x, y) {
+    if (x <= 0 || y <= 0) return [];
+
     /** @type {Set<string>} */
     const images = new Set();
 
@@ -36,7 +38,7 @@ async function getBackgroundImages(node, x, y) {
         }
 
         if (element.shadowRoot) {
-            const results = await getBackgroundImages(element.shadowRoot, x, y);
+            const results = getBackgroundImages(element.shadowRoot, x, y);
             results.forEach(result => images.add(result));
         }
     }
@@ -54,7 +56,7 @@ function getComputedBackgroundImages(element, pseudo) {
     const value = style.getPropertyValue('background-image');
     const results = [];
     value.replace(/url\("?(.+?)"?\)/g, (match, p) => {
-        results.push(p.replace(/\\"/g,'"'));
+        results.push(p.replace(/\\"/g, '"'));
     });
     return results;
 }
@@ -71,15 +73,14 @@ function getSVGDataURI(element) {
 }
 
 if (chrome.runtime) {
-    /** @type {Promise<string[]>} */
-    let promise;
+    let x = 0, y = 0;
 
     document.addEventListener('contextmenu', e => {
-        promise = getBackgroundImages(document, e.clientX, e.clientY);
+        x = e.clientX;
+        y = e.clientY;
     });
 
     chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-        promise.then(images => sendResponse(images));
-        return true;
+        sendResponse(getBackgroundImages(document, x, y));
     });
 }

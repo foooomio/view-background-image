@@ -24,6 +24,8 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
         if (!Array.isArray(response) || response.length === 0) {
             if (confirm(chrome.i18n.getMessage('failure'))) {
                 chrome.tabs.create({
+                    windowId: tab.windowId,
+                    openerTabId: tab.id,
                     index: tab.index + 1,
                     url: 'https://github.com/foooomio/view-background-image/issues'
                 });
@@ -33,6 +35,8 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
 
         response.forEach(image => {
             chrome.tabs.create({
+                windowId: tab.windowId,
+                openerTabId: tab.id,
                 index: tab.index + 1,
                 url: image
             });

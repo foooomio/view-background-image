@@ -8,6 +8,9 @@
     "title": {
         "message": "Zobrazit obrázek na pozadí"
     },
+    "security": {
+        "message": "Rozšíření na této stránce nefunguje z bezpečnostních důvodů."
+    },
     "reload": {
         "message": "Znovu načtěte kartu."
     },

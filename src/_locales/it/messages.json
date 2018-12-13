@@ -8,6 +8,9 @@
     "title": {
         "message": "Visualizza immagine di sfondo"
     },
+    "security": {
+        "message": "L'estensione non funziona su questa pagina per motivi di sicurezza."
+    },
     "reload": {
         "message": "Si prega di ricaricare la scheda."
     },

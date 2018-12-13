@@ -8,6 +8,9 @@
     "title": {
         "message": "Ver imagen de fondo"
     },
+    "security": {
+        "message": "La extensión no funciona en esta página por razones de seguridad."
+    },
     "reload": {
         "message": "Por favor, vuelva a cargar la pestaña."
     },

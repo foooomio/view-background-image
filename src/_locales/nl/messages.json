@@ -8,6 +8,9 @@
     "title": {
         "message": "Achtergrondafbeelding bekijken"
     },
+    "security": {
+        "message": "De extensie werkt om veiligheidsredenen niet op deze pagina."
+    },
     "reload": {
         "message": "Laad het tabblad opnieuw."
     },

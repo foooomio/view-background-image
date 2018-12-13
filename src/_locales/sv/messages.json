@@ -8,6 +8,9 @@
     "title": {
         "message": "Visa bakgrundsbild"
     },
+    "security": {
+        "message": "Utvidgningen fungerar inte på den här sidan av säkerhetsskäl."
+    },
     "reload": {
         "message": "Vänligen ladda om fliken."
     },

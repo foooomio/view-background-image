@@ -5,7 +5,7 @@ const path = require('path');
 describe('locales', function() {
     const locales = path.resolve(__dirname, '../src/_locales');
     const keys = [
-        'extName', 'extDescription', 'title', 'reload', 'failure'
+        'extName', 'extDescription', 'title', 'security', 'reload', 'failure'
     ];
 
     fs.readdirSync(locales).forEach(locale => {

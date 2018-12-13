@@ -17,7 +17,10 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
     chrome.tabs.sendMessage(tab.id, '', { frameId: info.frameId }, response => {
 
         if (response === undefined) {
-            alert(chrome.i18n.getMessage('reload'));
+            chrome.tabs.executeScript({ code: '', frameId: info.frameId }, () => {
+                const reason = chrome.runtime.lastError ? 'security' : 'reload';
+                alert(chrome.i18n.getMessage(reason));
+            });
             return;
         }
 

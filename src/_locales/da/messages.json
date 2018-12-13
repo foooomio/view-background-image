@@ -8,6 +8,9 @@
     "title": {
         "message": "Vis baggrundsbillede"
     },
+    "security": {
+        "message": "Udvidelsen fungerer ikke på denne side af sikkerhedsmæssige årsager."
+    },
     "reload": {
         "message": "Venligst genindlæs fanen."
     },

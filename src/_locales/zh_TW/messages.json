@@ -8,6 +8,9 @@
     "title": {
         "message": "檢視背景圖片"
     },
+    "security": {
+        "message": "出於安全原因，該擴展名不適用於此頁面。"
+    },
     "reload": {
         "message": "請重新加載標籤。"
     },

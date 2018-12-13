@@ -8,6 +8,9 @@
     "title": {
         "message": "Näytä taustakuva"
     },
+    "security": {
+        "message": "Laajennus ei toimi tällä sivulla turvallisuussyistä."
+    },
     "reload": {
         "message": "Lataa uudelleen välilehti."
     },

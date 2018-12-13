@@ -8,6 +8,9 @@
     "title": {
         "message" : "Se bakgrunnsbilde"
     },
+    "security": {
+        "message": "Utvidelsen fungerer ikke på denne siden av sikkerhetshensyn."
+    },
     "reload": {
         "message": "Venligst fyll inn kategorien."
     },

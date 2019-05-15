@@ -1,6 +1,4 @@
-//
-// content.js
-//
+// @ts-check
 
 'use strict';
 
@@ -57,6 +55,7 @@ function getComputedBackgroundImages(element, pseudo) {
     const results = [];
     value.replace(/url\("?(.+?)"?\)/g, (match, p) => {
         results.push(p.replace(/\\"/g, '"'));
+        return '';
     });
     return results;
 }
@@ -66,7 +65,7 @@ function getComputedBackgroundImages(element, pseudo) {
  * @returns {string}
  */
 function getSVGDataURI(element) {
-    const svg = element.cloneNode(true);
+    const svg = /** @type {SVGSVGElement} */ (element.cloneNode(true));
     svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
     svg.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
     return 'data:image/svg+xml,' + svg.outerHTML;

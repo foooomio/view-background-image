@@ -1,6 +1,4 @@
-//
-// script.js
-//
+// @ts-check
 
 'use strict';
 

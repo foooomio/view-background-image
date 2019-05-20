@@ -51,12 +51,17 @@ function getBackgroundImages(node, x, y) {
  */
 function getComputedBackgroundImages(element, pseudo) {
     const style = getComputedStyle(element, pseudo);
-    const value = style.getPropertyValue('background-image');
+    const values = [
+        style.getPropertyValue('background-image'),
+        style.getPropertyValue('content')
+    ];
     const results = [];
-    value.replace(/url\("?(.+?)"?\)/g, (match, p) => {
-        results.push(p.replace(/\\"/g, '"'));
-        return '';
-    });
+    for (const value of values) {
+        value.replace(/url\("(.+?)"\)/g, (match, p) => {
+            results.push(p.replace(/\\"/g, '"'));
+            return '';
+        });
+    }
     return results;
 }
 

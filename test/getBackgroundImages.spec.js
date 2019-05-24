@@ -13,7 +13,8 @@ const contentScript = path.resolve(__dirname, '../src/content.js');
 describe('getBackgroundImages', function() {
     let browser, page;
 
-    this.timeout(10000);
+    this.timeout(0);
+    this.slow(1000);
 
     before(async function() {
         browser = await puppeteer.launch(launchOptions);
@@ -21,7 +22,7 @@ describe('getBackgroundImages', function() {
     });
 
     after(async function() {
-        console.log('\non ' + await browser.version());
+        console.log('  on ' + await browser.version());
         await browser.close();
     });
 

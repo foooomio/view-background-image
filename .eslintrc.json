@@ -2,12 +2,10 @@
     "env": {
         "browser": true,
         "es6": true,
-        "mocha": true,
-        "node": true,
         "webextensions": true
     },
     "parserOptions": {
-        "ecmaVersion": 2018
+        "ecmaVersion": 2019
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -28,5 +26,14 @@
             "error",
             "always"
         ]
-    }
+    },
+    "overrides": [
+        {
+            "files": ["test/**"],
+            "env": {
+                "mocha": true,
+                "node": true
+            }
+        }
+    ]
 }

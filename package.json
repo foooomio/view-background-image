@@ -7,8 +7,8 @@
     "private": true,
     "license": "MIT",
     "devDependencies": {
-        "@types/chrome": "0.0.85",
-        "mocha": "^6.1.4",
-        "puppeteer-core": "^1.16.0"
+        "@types/chrome": "*",
+        "mocha": "*",
+        "puppeteer-core": "*"
     }
 }

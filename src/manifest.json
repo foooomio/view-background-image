@@ -6,7 +6,6 @@
     "default_locale": "en",
     "permissions": [
         "contextMenus",
-        "tabs",
         "<all_urls>"
     ],
     "background": {
@@ -28,4 +27,3 @@
         "128": "icon128.png"
     }
 }
-

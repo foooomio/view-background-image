@@ -12,9 +12,9 @@ chrome.runtime.onInstalled.addListener(details => {
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-    chrome.tabs.sendMessage(tab.id, '', { frameId: info.frameId }, response => {
+    chrome.tabs.sendMessage(tab.id, null, { frameId: info.frameId }, response => {
 
-        if (response === undefined) {
+        if (chrome.runtime.lastError) {
             chrome.tabs.executeScript({ code: '', frameId: info.frameId }, () => {
                 const reason = chrome.runtime.lastError ? 'security' : 'reload';
                 alert(chrome.i18n.getMessage(reason));
@@ -23,25 +23,27 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
         }
 
         if (!Array.isArray(response) || response.length === 0) {
-            if (confirm(chrome.i18n.getMessage('failure'))) {
+            const message = chrome.i18n.getMessage('failure');
+            chrome.tabs.sendMessage(tab.id, message, { frameId: info.frameId }, result => {
+                if (!result) return;
                 chrome.tabs.create({
                     windowId: tab.windowId,
                     openerTabId: tab.id,
                     index: tab.index + 1,
                     url: 'https://github.com/foooomio/view-background-image/issues'
                 });
-            }
+            });
             return;
         }
 
-        response.forEach(image => {
+        for (const image of response) {
             chrome.tabs.create({
                 windowId: tab.windowId,
                 openerTabId: tab.id,
                 index: tab.index + 1,
                 url: image
             });
-        });
+        }
 
     });
 });

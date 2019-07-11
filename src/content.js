@@ -85,6 +85,10 @@ if (chrome.runtime) {
     });
 
     chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-        sendResponse(getBackgroundImages(document, x, y));
+        if (message) {
+            sendResponse(confirm(message));
+        } else {
+            sendResponse(getBackgroundImages(document, x, y));
+        }
     });
 }

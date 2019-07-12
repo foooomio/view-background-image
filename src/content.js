@@ -73,7 +73,7 @@ function getSVGDataURI(element) {
     const svg = /** @type {SVGSVGElement} */ (element.cloneNode(true));
     svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
     svg.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
-    return 'data:image/svg+xml,' + svg.outerHTML;
+    return 'data:image/svg+xml,' + encodeURIComponent(svg.outerHTML);
 }
 
 if (chrome.runtime) {

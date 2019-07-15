@@ -2,12 +2,16 @@
     "name": "view-background-image",
     "version": "0.0.0",
     "scripts": {
+        "build": "./build.sh",
+        "lint": "eslint . && editorconfig-checker",
         "test": "mocha"
     },
     "private": true,
     "license": "MIT",
     "devDependencies": {
         "@types/chrome": "*",
+        "editorconfig-checker": "*",
+        "eslint": "*",
         "mocha": "*",
         "puppeteer-core": "*"
     }

@@ -10,9 +10,9 @@ This extension requires permission to access your data on all websites only for 
 ## Usage
 
 1. Install the extension and __reload tabs__.
-2. Open the context menu on an image which you want to view.
+2. Open the context menu on the image that you want to view.
 3. Select `View background image`.
-4. Images under the mouse cursor will be displayed on new tabs.
+4. The images under the mouse cursor will be displayed in new tabs.
 
 ## Known Issues
 

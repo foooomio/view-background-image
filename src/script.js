@@ -40,9 +40,26 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
                 windowId: tab.windowId,
                 openerTabId: tab.id,
                 index: tab.index + 1,
+                active: !shouldOpenInBackground(info),
                 url: image
             });
         }
 
     });
 });
+
+/**
+ * @param {any} info
+ * @returns {boolean}
+ * @description Currently this function works well only on Firefox.
+ */
+function shouldOpenInBackground(info) {
+    if (info.button === 1) return true;
+
+    if (info.modifiers && info.modifiers.length === 1) {
+        const key = info.modifiers[0];
+        return key === 'Ctrl' || key === 'Command';
+    }
+
+    return false;
+}

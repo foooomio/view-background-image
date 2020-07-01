@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Papar Imej Latar belakang"
+    },
+    "extDescription": {
+        "message": "\"Papar Imej Latar belakang\" dalam menu konteks."
+    },
+    "title": {
+        "message": "Papar Imej Latar belakang"
+    },
+    "security": {
+        "message": "Sambungan tidak berfungsi di halaman ini atas alasan keselamatan."
+    },
+    "reload": {
+        "message": "Sila muatkan semula tab."
+    },
+    "failure": {
+        "message": "Gagal mendapatkan gambar latar.\nLaporkan masalah?"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Pogledaj pozadinsku sliku"
+    },
+    "extDescription": {
+        "message": "\"Pogledaj pozadinsku sliku\" u kontekstnom izborniku."
+    },
+    "title": {
+        "message": "Pogledaj pozadinsku sliku"
+    },
+    "security": {
+        "message": "Proširenje ne funkcionira na ovoj stranici iz sigurnosnih razloga."
+    },
+    "reload": {
+        "message": "Ponovno umetnite karticu."
+    },
+    "failure": {
+        "message": "Nije moguće dobiti pozadinsku sliku.\nPrijaviti problem?"
+    }
+}

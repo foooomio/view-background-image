@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Angalia Picha ya Mandharinyuma"
+    },
+    "extDescription": {
+        "message": "\"Angalia Picha ya Mandharinyuma\" kwenye menyu ya muktadha."
+    },
+    "title": {
+        "message": "Angalia Picha ya Mandharinyuma"
+    },
+    "security": {
+        "message": "Ugani haufanyi kazi kwenye ukurasa huu kwa sababu za usalama."
+    },
+    "reload": {
+        "message": "Tafadhali pakia tena kichupo hicho."
+    },
+    "failure": {
+        "message": "Imeshindwa kupata picha ya mandharinyuma.\nRipoti suala?"
+    }
+}

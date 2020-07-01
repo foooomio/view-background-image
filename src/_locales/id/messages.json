@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Lihat Gambar Latar Belakang"
+    },
+    "extDescription": {
+        "message": "\"Lihat Gambar Latar Belakang\" di menu konteks."
+    },
+    "title": {
+        "message": "Lihat Gambar Latar Belakang"
+    },
+    "security": {
+        "message": "Ekstensi tidak berfungsi di halaman ini karena alasan keamanan."
+    },
+    "reload": {
+        "message": "Harap muat kembali tab."
+    },
+    "failure": {
+        "message": "Gagal mendapatkan gambar latar belakang.\nLaporkan masalah?"
+    }
+}

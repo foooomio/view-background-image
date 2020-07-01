@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Skatīt fona attēlu"
+    },
+    "extDescription": {
+        "message": "\"Skatīt fona attēlu\" konteksta izvēlnē."
+    },
+    "title": {
+        "message": "Skatīt fona attēlu"
+    },
+    "security": {
+        "message": "Drošības apsvērumu dēļ paplašinājums šajā lapā nedarbojas."
+    },
+    "reload": {
+        "message": "Lūdzu, atkārtoti ielādējiet cilni."
+    },
+    "failure": {
+        "message": "Neizdevās iegūt fona attēlu.\nZiņot par problēmu?"
+    }
+}

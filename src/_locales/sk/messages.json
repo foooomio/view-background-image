@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Zobraziť obrázok pozadia"
+    },
+    "extDescription": {
+        "message": "\"Zobraziť obrázok pozadia\" v kontextovej ponuke."
+    },
+    "title": {
+        "message": "Zobraziť obrázok pozadia"
+    },
+    "security": {
+        "message": "Rozšírenie na tejto stránke nefunguje z bezpečnostných dôvodov."
+    },
+    "reload": {
+        "message": "Znovu načítajte kartu."
+    },
+    "failure": {
+        "message": "Obrázok pozadia sa nepodarilo získať.\nNahlásiť problém?"
+    }
+}

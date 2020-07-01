@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Ipakita ang Background Image"
+    },
+    "extDescription": {
+        "message": "\"Ipakita ang Background Image\" sa menu ng konteksto."
+    },
+    "title": {
+        "message": "Ipakita ang Background Image"
+    },
+    "security": {
+        "message": "Ang extension ay hindi gumagana sa pahinang ito para sa mga kadahilanang pangseguridad."
+    },
+    "reload": {
+        "message": "Mangyaring i-reload ang tab."
+    },
+    "failure": {
+        "message": "Nabigong makuha ang imahe sa background.\nMag-ulat ng isang isyu?"
+    }
+}

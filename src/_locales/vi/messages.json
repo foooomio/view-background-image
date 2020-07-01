@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Xem ảnh nền"
+    },
+    "extDescription": {
+        "message": "\"Xem ảnh nền\" trong menu ngữ cảnh."
+    },
+    "title": {
+        "message": "Xem ảnh nền"
+    },
+    "security": {
+        "message": "Tiện ích mở rộng không hoạt động trên trang này vì lý do bảo mật."
+    },
+    "reload": {
+        "message": "Vui lòng tải lại tab."
+    },
+    "failure": {
+        "message": "Không thể có được hình ảnh nền.\nBáo cáo một vấn đề?"
+    }
+}

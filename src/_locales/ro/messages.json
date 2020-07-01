@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Vezi imaginea de fundal"
+    },
+    "extDescription": {
+        "message": "\"Vezi imaginea de fundal\" în meniul contextual."
+    },
+    "title": {
+        "message": "Vezi imaginea de fundal"
+    },
+    "security": {
+        "message": "Extensia nu funcționează pe această pagină din motive de securitate."
+    },
+    "reload": {
+        "message": "Vă rugăm să reîncărcați fila."
+    },
+    "failure": {
+        "message": "Eroarea de a obține imaginea de fundal.\nRaportează o problemă?"
+    }
+}

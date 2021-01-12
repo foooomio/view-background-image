@@ -3,7 +3,9 @@ Chrome extension that adds "View background image" to the context menu
 
 ## Installation
 
-[![Install the extension](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/cegndknljaapfbnmfnagomhhgbajjibd) [![Firefox](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/firefox/addon/view-background-images/)
+[![Available in the Chrome Web Store](https://user-images.githubusercontent.com/1075914/104359656-4698d600-5553-11eb-99d5-2344ac26b544.png)](https://chrome.google.com/webstore/detail/cegndknljaapfbnmfnagomhhgbajjibd) [![Get the add-on for Firefox](https://user-images.githubusercontent.com/1075914/104359743-64663b00-5553-11eb-8842-81c102a08a1a.png)](https://addons.mozilla.org/firefox/addon/view-background-images/)
+
+[Get the add-on for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/lmpgechcgfhfamgjfcipjjpfjoknpccg)
 
 This extension requires permission to access your data on all websites only for viewing background images.
 

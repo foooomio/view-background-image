@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "Hintergrundgrafik anzeigen"
+        "message": "Hintergrundbild anzeigen"
     },
     "extDescription": {
-        "message": "\"Hintergrundgrafik anzeigen\" im Kontextmenü."
+        "message": "\"Hintergrundbild anzeigen\" im Kontextmenü."
     },
     "title": {
-        "message": "Hintergrundgrafik anzeigen"
+        "message": "Hintergrundbild anzeigen"
     },
     "security": {
-        "message": "Die Erweiterung funktioniert auf dieser Seite aus Sicherheitsgründen nicht."
+        "message": "Aus Sicherheitsgründen funktioniert die Erweiterung auf dieser Seite nicht."
     },
     "reload": {
-        "message": "Bitte Lade die Registerkarte neu."
+        "message": "Bitte lade den Tab neu."
     },
     "failure": {
-        "message": "Das Hintergrundgrafik konnte nicht abgerufen werden.\nEin Problem melden?"
+        "message": "Das Hintergrundbild konnte nicht abgerufen werden.\nEin Problem melden?"
     }
 }

@@ -1,12 +1,12 @@
 {
     "extName": {
-        "message": "Arka plan resmini göster"
+        "message": "Arka plan fotoğrafını göster"
     },
     "extDescription": {
-        "message": "Bağlam menüsünde \"Arka plan resmini göster\"."
+        "message": "Bağlam menüsünde \"Arka plan fotoğrafını göster\"."
     },
     "title": {
-        "message": "Arka plan resmini göster"
+        "message": "Arka plan fotoğrafını göster"
     },
     "security": {
         "message": "Uzantı, güvenlik nedeniyle bu sayfada çalışmıyor."
@@ -15,6 +15,6 @@
         "message": "Lütfen sekmeyi yeniden yükleyin."
     },
     "failure": {
-        "message": "Arka plan resmi alınamadı.\nSorun bildir?"
+        "message": "Arka plan fotoğrafı alınamadı.\nSorun bildir?"
     }
 }

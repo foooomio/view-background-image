@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Visualitza la imatge de fons"
-    },
-    "extDescription": {
-        "message": "\"Visualitza la imatge de fons\" al menú contextual."
-    },
-    "title": {
-        "message": "Visualitza la imatge de fons"
-    },
-    "security": {
-        "message": "L’extensió no funciona en aquesta pàgina per motius de seguretat."
-    },
-    "reload": {
-        "message": "Torneu a carregar la pestanya."
-    },
-    "failure": {
-        "message": "No s'ha pogut obtenir la imatge de fons.\nInformar d’un problema?"
-    }
+  "extName": {
+    "message": "Visualitza la imatge de fons"
+  },
+  "extDescription": {
+    "message": "\"Visualitza la imatge de fons\" al menú contextual."
+  },
+  "title": {
+    "message": "Visualitza la imatge de fons"
+  },
+  "security": {
+    "message": "L’extensió no funciona en aquesta pàgina per motius de seguretat."
+  },
+  "reload": {
+    "message": "Torneu a carregar la pestanya."
+  },
+  "failure": {
+    "message": "No s'ha pogut obtenir la imatge de fons.\nInformar d’un problema?"
+  }
 }

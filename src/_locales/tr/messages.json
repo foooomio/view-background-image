@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Arka plan fotoğrafını göster"
-    },
-    "extDescription": {
-        "message": "Bağlam menüsünde \"Arka plan fotoğrafını göster\"."
-    },
-    "title": {
-        "message": "Arka plan fotoğrafını göster"
-    },
-    "security": {
-        "message": "Uzantı, güvenlik nedeniyle bu sayfada çalışmıyor."
-    },
-    "reload": {
-        "message": "Lütfen sekmeyi yeniden yükleyin."
-    },
-    "failure": {
-        "message": "Arka plan fotoğrafı alınamadı.\nSorun bildir?"
-    }
+  "extName": {
+    "message": "Arka plan fotoğrafını göster"
+  },
+  "extDescription": {
+    "message": "Bağlam menüsünde \"Arka plan fotoğrafını göster\"."
+  },
+  "title": {
+    "message": "Arka plan fotoğrafını göster"
+  },
+  "security": {
+    "message": "Uzantı, güvenlik nedeniyle bu sayfada çalışmıyor."
+  },
+  "reload": {
+    "message": "Lütfen sekmeyi yeniden yükleyin."
+  },
+  "failure": {
+    "message": "Arka plan fotoğrafı alınamadı.\nSorun bildir?"
+  }
 }

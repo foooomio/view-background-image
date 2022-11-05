@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Pokaži sliko ozadja"
-    },
-    "extDescription": {
-        "message": "\"Pokaži sliko ozadja\" v kontekstnem meniju."
-    },
-    "title": {
-        "message": "Pokaži sliko ozadja"
-    },
-    "security": {
-        "message": "Razširitev na tej strani zaradi varnostnih razlogov ne deluje."
-    },
-    "reload": {
-        "message": "Ponovno naložite zavihek."
-    },
-    "failure": {
-        "message": "Ni bilo mogoče dobiti slike ozadja.\nPrijavite težavo?"
-    }
+  "extName": {
+    "message": "Pokaži sliko ozadja"
+  },
+  "extDescription": {
+    "message": "\"Pokaži sliko ozadja\" v kontekstnem meniju."
+  },
+  "title": {
+    "message": "Pokaži sliko ozadja"
+  },
+  "security": {
+    "message": "Razširitev na tej strani zaradi varnostnih razlogov ne deluje."
+  },
+  "reload": {
+    "message": "Ponovno naložite zavihek."
+  },
+  "failure": {
+    "message": "Ni bilo mogoče dobiti slike ozadja.\nPrijavite težavo?"
+  }
 }

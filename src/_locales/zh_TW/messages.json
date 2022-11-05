@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "檢視背景圖片"
-    },
-    "extDescription": {
-        "message": "\"檢視背景圖片\"上下文菜單。"
-    },
-    "title": {
-        "message": "檢視背景圖片"
-    },
-    "security": {
-        "message": "出於安全原因，該擴展名不適用於此頁面。"
-    },
-    "reload": {
-        "message": "請重新加載標籤。"
-    },
-    "failure": {
-        "message": "不能得到的背景圖片。\n報告問題？"
-    }
+  "extName": {
+    "message": "檢視背景圖片"
+  },
+  "extDescription": {
+    "message": "\"檢視背景圖片\"上下文菜單。"
+  },
+  "title": {
+    "message": "檢視背景圖片"
+  },
+  "security": {
+    "message": "出於安全原因，該擴展名不適用於此頁面。"
+  },
+  "reload": {
+    "message": "請重新加載標籤。"
+  },
+  "failure": {
+    "message": "不能得到的背景圖片。\n報告問題？"
+  }
 }

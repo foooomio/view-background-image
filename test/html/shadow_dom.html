@@ -1,6 +1,7 @@
 <script>
   const host = document.createElement('div');
   const shadowRoot = host.attachShadow({ mode: 'open' });
-  shadowRoot.innerHTML = '<div style="background-image:url(../image/blue.png);height:100%;width:100%;"></div>';
+  shadowRoot.innerHTML =
+    '<div style="background-image:url(../image/blue.png);height:100%;width:100%;"></div>';
   window.onload = () => document.body.appendChild(host);
 </script>

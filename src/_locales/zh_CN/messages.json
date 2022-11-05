@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "查看背景图像"
-    },
-    "extDescription": {
-        "message": "\"查看背景图像\"上下文菜单上。"
-    },
-    "title": {
-        "message": "查看背景图像"
-    },
-    "security": {
-        "message": "出于安全原因，该扩展名不适用于此页面。"
-    },
-    "reload": {
-        "message": "请重新加载标签。"
-    },
-    "failure": {
-        "message": "不能得到的背景图像。\n报告问题？"
-    }
+  "extName": {
+    "message": "查看背景图像"
+  },
+  "extDescription": {
+    "message": "\"查看背景图像\"上下文菜单上。"
+  },
+  "title": {
+    "message": "查看背景图像"
+  },
+  "security": {
+    "message": "出于安全原因，该扩展名不适用于此页面。"
+  },
+  "reload": {
+    "message": "请重新加载标签。"
+  },
+  "failure": {
+    "message": "不能得到的背景图像。\n报告问题？"
+  }
 }

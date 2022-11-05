@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Pokaż obraz tła"
-    },
-    "extDescription": {
-        "message": "\"Pokaż obraz tła\" w menu kontekstowym."
-    },
-    "title": {
-        "message": "Pokaż obraz tła"
-    },
-    "security": {
-        "message": "Rozszerzenie nie działa na tej stronie ze względów bezpieczeństwa."
-    },
-    "reload": {
-        "message": "Załaduj kartę ponownie."
-    },
-    "failure": {
-        "message": "Nie udało się uzyskać obrazu tła.\nChcesz zgłosić błąd?"
-    }
+  "extName": {
+    "message": "Pokaż obraz tła"
+  },
+  "extDescription": {
+    "message": "\"Pokaż obraz tła\" w menu kontekstowym."
+  },
+  "title": {
+    "message": "Pokaż obraz tła"
+  },
+  "security": {
+    "message": "Rozszerzenie nie działa na tej stronie ze względów bezpieczeństwa."
+  },
+  "reload": {
+    "message": "Załaduj kartę ponownie."
+  },
+  "failure": {
+    "message": "Nie udało się uzyskać obrazu tła.\nChcesz zgłosić błąd?"
+  }
 }

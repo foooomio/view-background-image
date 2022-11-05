@@ -1,4 +1,5 @@
 # View Background Image
+
 Chrome extension that adds "View background image" to the context menu
 
 ## Installation
@@ -11,7 +12,7 @@ This extension requires permission to access your data on all websites only for 
 
 ## Usage
 
-1. Install the extension and __reload tabs__.
+1. Install the extension and **reload tabs**.
 2. Open the context menu on the image that you want to view.
 3. Select `View background image`.
 4. The images under the mouse cursor will be displayed in new tabs.
@@ -20,14 +21,14 @@ This extension requires permission to access your data on all websites only for 
 
 It is technically impossible to view background images:
 
-* [CSS Paint API](https://developers.google.com/web/updates/2018/01/paintapi?hl=en)
-* [Closed Shadow DOM](https://developers.google.com/web/fundamentals/web-components/shadowdom?hl=en#closed) (e.g., [Embedded Tweets](https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview.html))
-* Some inline SVGs
-
+- [CSS Paint API](https://developers.google.com/web/updates/2018/01/paintapi?hl=en)
+- [Closed Shadow DOM](https://developers.google.com/web/fundamentals/web-components/shadowdom?hl=en#closed) (e.g., [Embedded Tweets](https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview.html))
+- Some inline SVGs
 
 ## Contributing
 
 ### Translation
+
 I need your help with translating into the language you speak.
 
 1. Fork this repository.
@@ -35,7 +36,9 @@ I need your help with translating into the language you speak.
 3. Create a new pull request.
 
 ## License
+
 This software is released under the [MIT License](https://github.com/foooomio/view-background-image/blob/master/LICENSE.txt).
 
 ## Author
+
 foooomio - [@foooomio](https://twitter.com/foooomio)

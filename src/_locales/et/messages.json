@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Vaata taustapilti"
-    },
-    "extDescription": {
-        "message": "\"Vaata taustapilti\" kontekstimenüüs."
-    },
-    "title": {
-        "message": "Vaata taustapilti"
-    },
-    "security": {
-        "message": "Laiendus sellel lehel turvalisuse huvides ei tööta."
-    },
-    "reload": {
-        "message": "Laadige vaheleht uuesti."
-    },
-    "failure": {
-        "message": "Taustapildi hankimine ebaõnnestus.\nKas teatada probleemist?"
-    }
+  "extName": {
+    "message": "Vaata taustapilti"
+  },
+  "extDescription": {
+    "message": "\"Vaata taustapilti\" kontekstimenüüs."
+  },
+  "title": {
+    "message": "Vaata taustapilti"
+  },
+  "security": {
+    "message": "Laiendus sellel lehel turvalisuse huvides ei tööta."
+  },
+  "reload": {
+    "message": "Laadige vaheleht uuesti."
+  },
+  "failure": {
+    "message": "Taustapildi hankimine ebaõnnestus.\nKas teatada probleemist?"
+  }
 }

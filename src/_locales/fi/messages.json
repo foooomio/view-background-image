@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Näytä taustakuva"
-    },
-    "extDescription": {
-        "message": "\"Näytä taustakuva\" in contextmenu."
-    },
-    "title": {
-        "message": "Näytä taustakuva"
-    },
-    "security": {
-        "message": "Laajennus ei toimi tällä sivulla turvallisuussyistä."
-    },
-    "reload": {
-        "message": "Lataa uudelleen välilehti."
-    },
-    "failure": {
-        "message": "Taustakuvan saaminen epäonnistui.\nIlmoita ongelma?"
-    }
+  "extName": {
+    "message": "Näytä taustakuva"
+  },
+  "extDescription": {
+    "message": "\"Näytä taustakuva\" in contextmenu."
+  },
+  "title": {
+    "message": "Näytä taustakuva"
+  },
+  "security": {
+    "message": "Laajennus ei toimi tällä sivulla turvallisuussyistä."
+  },
+  "reload": {
+    "message": "Lataa uudelleen välilehti."
+  },
+  "failure": {
+    "message": "Taustakuvan saaminen epäonnistui.\nIlmoita ongelma?"
+  }
 }

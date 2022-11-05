@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "View Background Image"
-    },
-    "extDescription": {
-        "message": "\"View Background Image\" in context menu."
-    },
-    "title": {
-        "message": "View Background Image"
-    },
-    "security": {
-        "message": "The extension does not work on this page for security reasons."
-    },
-    "reload": {
-        "message": "Please reload the tab."
-    },
-    "failure": {
-        "message": "Failed to get the background image.\nReport an issue?"
-    }
+  "extName": {
+    "message": "View Background Image"
+  },
+  "extDescription": {
+    "message": "\"View Background Image\" in context menu."
+  },
+  "title": {
+    "message": "View Background Image"
+  },
+  "security": {
+    "message": "The extension does not work on this page for security reasons."
+  },
+  "reload": {
+    "message": "Please reload the tab."
+  },
+  "failure": {
+    "message": "Failed to get the background image.\nReport an issue?"
+  }
 }

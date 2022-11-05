@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Zobrazit obrázek na pozadí"
-    },
-    "extDescription": {
-        "message": "\"Zobrazit obrázek na pozadí\" v místní nabídce."
-    },
-    "title": {
-        "message": "Zobrazit obrázek na pozadí"
-    },
-    "security": {
-        "message": "Rozšíření na této stránce nefunguje z bezpečnostních důvodů."
-    },
-    "reload": {
-        "message": "Znovu načtěte kartu."
-    },
-    "failure": {
-        "message": "Nepodařilo se získat obrázek na pozadí.\nNahlásit problém?"
-    }
+  "extName": {
+    "message": "Zobrazit obrázek na pozadí"
+  },
+  "extDescription": {
+    "message": "\"Zobrazit obrázek na pozadí\" v místní nabídce."
+  },
+  "title": {
+    "message": "Zobrazit obrázek na pozadí"
+  },
+  "security": {
+    "message": "Rozšíření na této stránce nefunguje z bezpečnostních důvodů."
+  },
+  "reload": {
+    "message": "Znovu načtěte kartu."
+  },
+  "failure": {
+    "message": "Nepodařilo se získat obrázek na pozadí.\nNahlásit problém?"
+  }
 }

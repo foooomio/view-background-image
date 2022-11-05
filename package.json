@@ -1,18 +1,17 @@
 {
-    "name": "view-background-image",
-    "version": "0.0.0",
-    "scripts": {
-        "build": "./build.sh",
-        "lint": "eslint . && editorconfig-checker",
-        "test": "mocha"
-    },
-    "private": true,
-    "license": "MIT",
-    "devDependencies": {
-        "@types/chrome": "*",
-        "editorconfig-checker": "*",
-        "eslint": "*",
-        "mocha": "*",
-        "puppeteer-core": "*"
-    }
+  "name": "view-background-image",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "format": "prettier --write .",
+    "format-check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.199",
+    "mocha": "^10.1.0",
+    "prettier": "^2.7.1"
+  }
 }

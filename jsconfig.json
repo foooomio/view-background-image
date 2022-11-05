@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "checkJs": true
+  },
+  "typeAcquisition": {
+    "include": ["chrome"]
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Háttérkép megjelenítése"
-    },
-    "extDescription": {
-        "message": "\"Háttérkép megjelenítése\" a helyi menüben."
-    },
-    "title": {
-        "message": "Háttérkép megjelenítése"
-    },
-    "security": {
-        "message": "A kiterjesztés biztonsági okokból ezen az oldalon nem működik."
-    },
-    "reload": {
-        "message": "Töltse újra a fület."
-    },
-    "failure": {
-        "message": "A háttérkép beolvasása nem sikerült.\nHibabejelentés?"
-    }
+  "extName": {
+    "message": "Háttérkép megjelenítése"
+  },
+  "extDescription": {
+    "message": "\"Háttérkép megjelenítése\" a helyi menüben."
+  },
+  "title": {
+    "message": "Háttérkép megjelenítése"
+  },
+  "security": {
+    "message": "A kiterjesztés biztonsági okokból ezen az oldalon nem működik."
+  },
+  "reload": {
+    "message": "Töltse újra a fület."
+  },
+  "failure": {
+    "message": "A háttérkép beolvasása nem sikerült.\nHibabejelentés?"
+  }
 }

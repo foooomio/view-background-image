@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message" : "Se bakgrunnsbilde"
-    },
-    "extDescription": {
-        "message" : "\"Se bakgrunnsbilde\" i kontekstmenyen."
-    },
-    "title": {
-        "message" : "Se bakgrunnsbilde"
-    },
-    "security": {
-        "message": "Utvidelsen fungerer ikke på denne siden av sikkerhetshensyn."
-    },
-    "reload": {
-        "message": "Venligst fyll inn kategorien."
-    },
-    "failure": {
-        "message" : "Kunne ikke få tak i bakgrunnsbilde.\nVil du rapportere en feil?"
-    }
+  "extName": {
+    "message": "Se bakgrunnsbilde"
+  },
+  "extDescription": {
+    "message": "\"Se bakgrunnsbilde\" i kontekstmenyen."
+  },
+  "title": {
+    "message": "Se bakgrunnsbilde"
+  },
+  "security": {
+    "message": "Utvidelsen fungerer ikke på denne siden av sikkerhetshensyn."
+  },
+  "reload": {
+    "message": "Venligst fyll inn kategorien."
+  },
+  "failure": {
+    "message": "Kunne ikke få tak i bakgrunnsbilde.\nVil du rapportere en feil?"
+  }
 }

@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Vis baggrundsbillede"
-    },
-    "extDescription": {
-        "message": "\"Vis baggrundsbillede\" i kontekstmenuen."
-    },
-    "title": {
-        "message": "Vis baggrundsbillede"
-    },
-    "security": {
-        "message": "Udvidelsen fungerer ikke på denne side af sikkerhedsmæssige årsager."
-    },
-    "reload": {
-        "message": "Venligst genindlæs fanen."
-    },
-    "failure": {
-        "message": "Kunne ikke få baggrundsbilledet.\nRapportér et problem?"
-    }
+  "extName": {
+    "message": "Vis baggrundsbillede"
+  },
+  "extDescription": {
+    "message": "\"Vis baggrundsbillede\" i kontekstmenuen."
+  },
+  "title": {
+    "message": "Vis baggrundsbillede"
+  },
+  "security": {
+    "message": "Udvidelsen fungerer ikke på denne side af sikkerhedsmæssige årsager."
+  },
+  "reload": {
+    "message": "Venligst genindlæs fanen."
+  },
+  "failure": {
+    "message": "Kunne ikke få baggrundsbilledet.\nRapportér et problem?"
+  }
 }

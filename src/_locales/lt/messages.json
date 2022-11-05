@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Rodyti fono piešinį"
-    },
-    "extDescription": {
-        "message": "Kontekstiniame meniu \"Rodyti fono piešinį\"."
-    },
-    "title": {
-        "message": "Rodyti fono piešinį"
-    },
-    "security": {
-        "message": "Plėtinys šiame puslapyje neveikia saugumo sumetimais."
-    },
-    "reload": {
-        "message": "Įkelkite skirtuką iš naujo."
-    },
-    "failure": {
-        "message": "Nepavyko gauti fono paveikslėlio.\nPranešti apie problemą?"
-    }
+  "extName": {
+    "message": "Rodyti fono piešinį"
+  },
+  "extDescription": {
+    "message": "Kontekstiniame meniu \"Rodyti fono piešinį\"."
+  },
+  "title": {
+    "message": "Rodyti fono piešinį"
+  },
+  "security": {
+    "message": "Plėtinys šiame puslapyje neveikia saugumo sumetimais."
+  },
+  "reload": {
+    "message": "Įkelkite skirtuką iš naujo."
+  },
+  "failure": {
+    "message": "Nepavyko gauti fono paveikslėlio.\nPranešti apie problemą?"
+  }
 }

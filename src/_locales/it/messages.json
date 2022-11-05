@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Visualizza immagine di sfondo"
-    },
-    "extDescription": {
-        "message": "\"Visualizza immagine di sfondo\" nel menu contestuale."
-    },
-    "title": {
-        "message": "Visualizza immagine di sfondo"
-    },
-    "security": {
-        "message": "L'estensione non funziona su questa pagina per motivi di sicurezza."
-    },
-    "reload": {
-        "message": "Si prega di ricaricare la scheda."
-    },
-    "failure": {
-        "message": "Impossibile ottenere l'immagine di sfondo.\nSegnala un problema?"
-    }
+  "extName": {
+    "message": "Visualizza immagine di sfondo"
+  },
+  "extDescription": {
+    "message": "\"Visualizza immagine di sfondo\" nel menu contestuale."
+  },
+  "title": {
+    "message": "Visualizza immagine di sfondo"
+  },
+  "security": {
+    "message": "L'estensione non funziona su questa pagina per motivi di sicurezza."
+  },
+  "reload": {
+    "message": "Si prega di ricaricare la scheda."
+  },
+  "failure": {
+    "message": "Impossibile ottenere l'immagine di sfondo.\nSegnala un problema?"
+  }
 }

@@ -1,20 +1,20 @@
 {
-    "extName": {
-        "message": "Visa bakgrundsbild"
-    },
-    "extDescription": {
-        "message": "\"Visa bakgrundsbild\" i snabbmenyn."
-    },
-    "title": {
-        "message": "Visa bakgrundsbild"
-    },
-    "security": {
-        "message": "Utvidgningen fungerar inte på den här sidan av säkerhetsskäl."
-    },
-    "reload": {
-        "message": "Vänligen ladda om fliken."
-    },
-    "failure": {
-        "message": "Misslyckades med att få bakgrundsbilden.\nRapportera ett problem?"
-    }
+  "extName": {
+    "message": "Visa bakgrundsbild"
+  },
+  "extDescription": {
+    "message": "\"Visa bakgrundsbild\" i snabbmenyn."
+  },
+  "title": {
+    "message": "Visa bakgrundsbild"
+  },
+  "security": {
+    "message": "Utvidgningen fungerar inte på den här sidan av säkerhetsskäl."
+  },
+  "reload": {
+    "message": "Vänligen ladda om fliken."
+  },
+  "failure": {
+    "message": "Misslyckades med att få bakgrundsbilden.\nRapportera ett problem?"
+  }
 }

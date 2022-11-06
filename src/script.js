@@ -2,12 +2,14 @@
 
 'use strict';
 
-chrome.contextMenus.create({
-    contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
-    id: 'background_img',
-    title: chrome.i18n.getMessage('title')
-}, () => {
-    console.log(chrome.runtime.lastError);
+chrome.runtime.onInstalled.addListener(() => {
+    chrome.contextMenus.create({
+        contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
+        id: 'background_img',
+        title: chrome.i18n.getMessage('title')
+    }, () => {
+        console.log(chrome.runtime.lastError);
+    });
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
@@ -40,26 +42,10 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
                 windowId: tab.windowId,
                 openerTabId: tab.id,
                 index: tab.index + 1,
-                active: !shouldOpenInBackground(info),
+                active: false,
                 url: image
             });
         }
 
     });
 });
-
-/**
- * @param {any} info
- * @returns {boolean}
- * @description Currently this function works well only on Firefox.
- */
-function shouldOpenInBackground(info) {
-    if (info.button === 1) return true;
-
-    if (info.modifiers && info.modifiers.length === 1) {
-        const key = info.modifiers[0];
-        return key === 'Ctrl' || key === 'Command';
-    }
-
-    return false;
-}

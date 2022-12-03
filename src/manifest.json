@@ -6,7 +6,7 @@
   "default_locale": "en",
   "permissions": ["contextMenus"],
   "background": {
-    "service_worker": "script.js"
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
@@ -17,9 +17,9 @@
     }
   ],
   "icons": {
-    "16": "icon16.png",
-    "32": "icon32.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   }
 }

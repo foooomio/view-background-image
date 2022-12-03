@@ -1,18 +1,18 @@
 'use strict';
 
 /**
- * @param {Document|ShadowRoot} node
+ * @param {Document|ShadowRoot} root
  * @param {number} x > 0
  * @param {number} y > 0
  * @returns {string[]}
  */
-function getBackgroundImages(node, x, y) {
+function getBackgroundImages(root, x, y) {
   if (x <= 0 || y <= 0) return [];
 
   /** @type {Set<string>} */
   const images = new Set();
 
-  for (const element of node.querySelectorAll('*')) {
+  for (const element of root.querySelectorAll('*')) {
     const rect = element.getBoundingClientRect();
     if (x < rect.left || rect.right < x || y < rect.top || rect.bottom < y) {
       continue;
@@ -47,19 +47,21 @@ function getBackgroundImages(node, x, y) {
 /**
  * @param {Element} element
  * @param {string} [pseudo]
- * @returns {Generator<string>}
+ * @returns {string[]}
  */
-function* getComputedBackgroundImages(element, pseudo) {
+function getComputedBackgroundImages(element, pseudo) {
   const style = getComputedStyle(element, pseudo);
   const values = [
     style.getPropertyValue('background-image'),
     style.getPropertyValue('content'),
   ];
+  const images = [];
   for (const value of values) {
     for (const [, url] of value.matchAll(/url\("(.+?)"\)/g)) {
-      yield url.replaceAll('\\"', '"');
+      images.push(url.replaceAll('\\"', '"'));
     }
   }
+  return images;
 }
 
 /**
@@ -74,19 +76,19 @@ function getSVGDataURI(element) {
 }
 
 if (chrome.runtime) {
+  let root = document;
   let x = 0;
   let y = 0;
 
-  document.addEventListener('contextmenu', (e) => {
-    x = e.clientX;
-    y = e.clientY;
+  document.addEventListener('contextmenu', (event) => {
+    if (event.target instanceof Element) {
+      root = event.target.ownerDocument;
+    }
+    x = event.clientX;
+    y = event.clientY;
   });
 
   chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-    if (message) {
-      sendResponse(confirm(message));
-    } else {
-      sendResponse(getBackgroundImages(document, x, y));
-    }
+    sendResponse(getBackgroundImages(root, x, y));
   });
 }

@@ -9,8 +9,7 @@
         "<all_urls>"
     ],
     "background": {
-        "scripts": [ "script.js" ],
-        "persistent": false
+        "scripts": [ "script.js" ]
     },
     "content_scripts": [
         {

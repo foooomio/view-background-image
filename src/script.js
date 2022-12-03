@@ -2,14 +2,12 @@
 
 'use strict';
 
-chrome.runtime.onInstalled.addListener(() => {
-    chrome.contextMenus.create({
-        contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
-        id: 'background_img',
-        title: chrome.i18n.getMessage('title')
-    }, () => {
-        console.log(chrome.runtime.lastError);
-    });
+chrome.contextMenus.create({
+    contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
+    id: 'background_img',
+    title: chrome.i18n.getMessage('title')
+}, () => {
+    console.log(chrome.runtime.lastError);
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {

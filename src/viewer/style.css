@@ -1,20 +1,11 @@
 body {
   margin: 20px;
+  text-align: center;
   color: #f1f1f1;
   background-color: #0e0e0e;
 }
 
-#gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  gap: 36px;
-  align-items: center;
-  justify-items: center;
-}
-
-.thumbnail {
-  display: block;
-  max-width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
+#gallery img {
+  max-width: 80vw;
+  max-height: 90vh;
 }

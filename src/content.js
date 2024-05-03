@@ -4,13 +4,15 @@
  * @param {Document|ShadowRoot} root
  * @param {number} x > 0
  * @param {number} y > 0
- * @returns {string[]}
+ * @returns {Set<string>}
  */
 function getBackgroundImages(root, x, y) {
-  if (x <= 0 || y <= 0) return [];
-
   /** @type {Set<string>} */
   const images = new Set();
+
+  if (x <= 0 || y <= 0) {
+    return images;
+  }
 
   for (const element of root.querySelectorAll('*')) {
     const rect = element.getBoundingClientRect();
@@ -26,7 +28,9 @@ function getBackgroundImages(root, x, y) {
 
     if (element instanceof HTMLImageElement) {
       images.add(element.currentSrc);
-    } else if (element instanceof SVGSVGElement) {
+    }
+
+    if (element instanceof SVGSVGElement) {
       if (element.ownerDocument.contentType === 'image/svg+xml') {
         images.add(element.ownerDocument.URL); // Object tag
       } else {
@@ -41,13 +45,13 @@ function getBackgroundImages(root, x, y) {
     }
   }
 
-  return [...images];
+  return images;
 }
 
 /**
  * @param {Element} element
  * @param {string} [pseudo]
- * @returns {string[]}
+ * @returns {Set<string>}
  */
 function getComputedBackgroundImages(element, pseudo) {
   const style = getComputedStyle(element, pseudo);
@@ -55,10 +59,10 @@ function getComputedBackgroundImages(element, pseudo) {
     style.getPropertyValue('background-image'),
     style.getPropertyValue('content'),
   ];
-  const images = [];
+  const images = new Set();
   for (const value of values) {
     for (const [, url] of value.matchAll(/url\("(.+?)"\)/g)) {
-      images.push(url.replaceAll('\\"', '"'));
+      images.add(url.replaceAll('\\"', '"'));
     }
   }
   return images;
@@ -89,6 +93,6 @@ if (chrome.runtime) {
   });
 
   chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-    sendResponse(getBackgroundImages(root, x, y));
+    sendResponse([...getBackgroundImages(root, x, y)]);
   });
 }

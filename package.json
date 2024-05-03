@@ -10,8 +10,8 @@
     "format-check": "prettier --check ."
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.203",
-    "mocha": "^10.1.0",
-    "prettier": "^2.8.0"
+    "@types/chrome": "^0.0.267",
+    "mocha": "^10.4.0",
+    "prettier": "^3.2.5"
   }
 }

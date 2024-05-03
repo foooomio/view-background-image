@@ -18,7 +18,12 @@ function h(tagName, options = {}, ...children) {
  */
 function setupGallery(urls) {
   const thumbnails = urls.map((url) => {
-    return h('a', { href: url }, h('img', { src: url }));
+    return h(
+      'figure',
+      {},
+      h('a', { href: url }, h('img', { src: url })),
+      h('figcaption', {}, url),
+    );
   });
 
   document.getElementById('gallery').append(...thumbnails);

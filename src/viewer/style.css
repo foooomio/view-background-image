@@ -1,11 +1,24 @@
 body {
-  margin: 20px;
+  margin: 2rem;
   text-align: center;
   color: #f1f1f1;
   background-color: #0e0e0e;
 }
 
+#gallery figure {
+  margin: 2rem;
+}
+
 #gallery img {
   max-width: 80vw;
-  max-height: 90vh;
+  max-height: 80vh;
+  transition: 0.3s;
+}
+
+#gallery img:hover {
+  filter: brightness(1.1);
+}
+
+#gallery figcaption {
+  font-size: 16px;
 }

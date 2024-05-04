@@ -15,6 +15,7 @@ function getBackgroundImages(root, x, y) {
   }
 
   for (const element of root.querySelectorAll('*')) {
+    // Hit Testing
     const rect = element.getBoundingClientRect();
     if (x < rect.left || rect.right < x || y < rect.top || rect.bottom < y) {
       continue;

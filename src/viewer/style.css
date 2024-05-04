@@ -6,19 +6,20 @@ body {
 }
 
 #gallery figure {
-  margin: 2rem;
+  margin: 4rem 8rem;
 }
 
 #gallery img {
-  max-width: 80vw;
+  max-width: 100%;
   max-height: 80vh;
-  transition: 0.3s;
+  transition: filter 0.2s;
 }
 
 #gallery img:hover {
-  filter: brightness(1.1);
+  filter: brightness(1.2);
 }
 
 #gallery figcaption {
+  margin-top: 1rem;
   font-size: 16px;
 }

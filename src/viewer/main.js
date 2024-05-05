@@ -22,8 +22,8 @@ async function main() {
 
 main()
   .catch((error) => {
-    showError(error.message);
+    showError(error);
   })
   .finally(() => {
-    removeExpiredCache(Date.now() - DAY);
+    removeExpiredCache(Date.now() - 7 * DAY);
   });

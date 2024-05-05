@@ -1,8 +1,19 @@
+:root {
+  --text-color: #f1f1f1;
+  --bg-color: #0e0e0e;
+}
+
 body {
   margin: 2rem;
   text-align: center;
-  color: #f1f1f1;
-  background-color: #0e0e0e;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 24px;
 }
 
 #gallery figure {
@@ -12,14 +23,42 @@ body {
 #gallery img {
   max-width: 100%;
   max-height: 80vh;
-  transition: filter 0.2s;
+  transition: 0.2s;
 }
 
 #gallery img:hover {
-  filter: brightness(1.2);
+  opacity: 0.9;
 }
 
 #gallery figcaption {
   margin-top: 1rem;
   font-size: 16px;
+}
+
+#error {
+  display: none;
+}
+
+nav {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+nav a {
+  color: var(--text-color);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  opacity: 0.9;
+}
+
+nav div {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid var(--text-color);
+  padding: 0.4rem;
+  margin: 0.2rem;
 }

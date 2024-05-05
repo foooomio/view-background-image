@@ -4,7 +4,7 @@
  * @param {string[]} images
  */
 function setupGallery(images) {
-  const thumbnails = images.map((image) => {
+  const figures = images.map((image) => {
     const caption = image.startsWith('data:image/svg+xml') ? 'SVG' : image;
     return h(
       'figure',
@@ -14,12 +14,13 @@ function setupGallery(images) {
     );
   });
 
-  document.getElementById('gallery').append(...thumbnails);
+  document.getElementById('gallery').append(...figures);
 }
 
 /**
- * @param {string} message
+ * @param {Error} error
  */
-function showError(message) {
-  document.getElementById('error').append(message);
+function showError(error) {
+  document.getElementById('error').append(error.message);
+  document.getElementById('error').style.display = 'block';
 }

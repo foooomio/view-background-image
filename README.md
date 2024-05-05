@@ -28,8 +28,8 @@ Chrome extension that adds "View background image" to the context menu
 
 ## Contributing
 
-> [!WARNING]
-> I need your help to continue developing the extension.
+> [!IMPORTANT]
+> I need your help to continue to develop and improve the extension.
 
 ### Translation
 

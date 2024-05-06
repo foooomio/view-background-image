@@ -5,8 +5,11 @@
   "extDescription": {
     "message": "\"View Background Image\" in context menu."
   },
-  "title": {
-    "message": "View Background Image"
+  "feedback": {
+    "message": "Feedback"
+  },
+  "donation": {
+    "message": "Donation"
   },
   "security": {
     "message": "The extension does not work on this page for security reasons."
@@ -15,6 +18,6 @@
     "message": "Please reload the tab."
   },
   "failure": {
-    "message": "Failed to get the background image.\nReport an issue?"
+    "message": "Failed to get the background image."
   }
 }

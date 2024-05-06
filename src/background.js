@@ -5,7 +5,7 @@ chrome.runtime.onInstalled.addListener(() => {
     {
       contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
       id: 'background_img',
-      title: chrome.i18n.getMessage('title'),
+      title: chrome.i18n.getMessage('extName'),
     },
     () => {
       if (chrome.runtime.lastError) {
@@ -22,6 +22,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 });
 
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
+  if (!tab?.id) {
+    throw new Error('tab.id is not set.');
+  }
+
   const response = await chrome.tabs
     .sendMessage(tab.id, null, { frameId: info.frameId })
     .catch((error) => error.message);

@@ -4,29 +4,21 @@
     <meta charset="UTF-8" />
     <title>View Background Image</title>
     <link rel="stylesheet" href="style.css" />
-    <script defer src="utils.js"></script>
-    <script defer src="cache.js"></script>
-    <script defer src="view.js"></script>
-    <script defer src="main.js"></script>
+    <script type="module" src="main.js"></script>
   </head>
   <body>
-    <h1>View Background Image</h1>
+    <h1 id="h1">View Background Image</h1>
     <div id="gallery"></div>
-    <div id="error"></div>
+    <div id="error" class="hidden"></div>
     <nav>
       <a
-        href="https://github.com/foooomio/view-background-image"
+        href="https://foooomio.net/extensions/view-background-image/"
         target="_blank"
-        id="review"
       >
-        <div>☆ Review</div>
+        <div id="feedback">☆ Feedback</div>
       </a>
-      <a
-        href="https://foooomio.net/extensions/donation.html"
-        target="_blank"
-        id="donation"
-      >
-        <div>♡ Donation</div>
+      <a href="https://foooomio.net/extensions/donation.html" target="_blank">
+        <div id="donation">♡ Donation</div>
       </a>
     </nav>
   </body>

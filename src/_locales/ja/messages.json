@@ -5,8 +5,11 @@
   "extDescription": {
     "message": "右クリックメニューに「背景画像を表示」を追加します。"
   },
-  "title": {
-    "message": "背景画像を表示"
+  "feedback": {
+    "message": "評価"
+  },
+  "donation": {
+    "message": "寄付"
   },
   "security": {
     "message": "セキュリティ上の理由のため、このページ上では実行できません。"
@@ -15,6 +18,6 @@
     "message": "タブを再読み込みしてください。"
   },
   "failure": {
-    "message": "背景画像を取得できません。\n問題を報告しますか？"
+    "message": "背景画像を取得できません。"
   }
 }

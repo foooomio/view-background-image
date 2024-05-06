@@ -5,13 +5,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "mocha",
     "format": "prettier --write .",
     "format-check": "prettier --check ."
   },
   "devDependencies": {
     "@types/chrome": "^0.0.267",
-    "mocha": "^10.4.0",
     "prettier": "^3.2.5"
   }
 }

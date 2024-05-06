@@ -8,7 +8,7 @@ Chrome extension that adds "View background image" to the context menu
 
 [![Get the add-on for Firefox](https://user-images.githubusercontent.com/1075914/104359743-64663b00-5553-11eb-8842-81c102a08a1a.png)](https://addons.mozilla.org/firefox/addon/view-background-images/)
 
-[Get the add-on for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/lmpgechcgfhfamgjfcipjjpfjoknpccg)
+[![Get the add-on for Microsoft Edge](https://user-images.githubusercontent.com/29514424/81471744-490d9800-922e-11ea-98fb-bceaf60d9c3d.png)](https://microsoftedge.microsoft.com/addons/detail/lmpgechcgfhfamgjfcipjjpfjoknpccg)
 
 > [!NOTE]
 > This extension requires permission to access your data on all websites only for viewing background images.
@@ -28,9 +28,6 @@ Chrome extension that adds "View background image" to the context menu
 
 ## Contributing
 
-> [!IMPORTANT]
-> I need your help to continue to develop and improve the extension.
-
 ### Translation
 
 1. Fork this repository
@@ -40,11 +37,10 @@ Chrome extension that adds "View background image" to the context menu
 
 ### Donation
 
-- BTC
-  - 1NadiwPMU5T8E6UzHSXj8LyLnia6DCyG7q
-- ETH
-  - 0xF0000Cc3a6A66C25dFADB7761d75053b329CCd5C
-  - Major EVM-compatible chains are also acceptable
+> [!IMPORTANT]
+> Your support will help me continue to develop and improve the extension.
+
+[Donate](https://foooomio.net/extensions/donation)
 
 ## License
 

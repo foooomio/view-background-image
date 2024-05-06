@@ -1,29 +1,25 @@
-'use strict';
-
-function init() {
-  const extName = chrome.i18n.getMessage('extName');
-  document.title = extName;
-  document.querySelector('h1').textContent = extName;
-}
+import { getImages } from './connection.js';
+import { NotFoundError, showError } from './error.js';
+import { setupGallery } from './gallery.js';
+import { init } from './init.js';
+import { DAY, removeExpiredCache } from './utils.js';
 
 init();
 
-async function main() {
+try {
   const key = new URLSearchParams(location.search).get('t');
 
-  const images = await getCachedImages(key);
+  const images = await getImages(key ?? '');
 
   if (images.length === 0) {
-    throw new Error('No Background Images');
+    throw new NotFoundError();
   }
 
   setupGallery(images);
-}
-
-main()
-  .catch((error) => {
+} catch (error) {
+  if (error instanceof Error) {
     showError(error);
-  })
-  .finally(() => {
-    removeExpiredCache(Date.now() - 7 * DAY);
-  });
+  }
+} finally {
+  removeExpiredCache(Date.now() - 7 * DAY);
+}

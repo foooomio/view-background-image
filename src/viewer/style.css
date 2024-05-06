@@ -35,10 +35,6 @@ h1 {
   font-size: 16px;
 }
 
-#error {
-  display: none;
-}
-
 nav {
   position: absolute;
   top: 2rem;
@@ -61,4 +57,8 @@ nav div {
   border: 1px solid var(--text-color);
   padding: 0.4rem;
   margin: 0.2rem;
+}
+
+.hidden {
+  display: none;
 }

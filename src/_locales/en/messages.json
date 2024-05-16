@@ -3,7 +3,7 @@
     "message": "View Background Image"
   },
   "extDescription": {
-    "message": "\"View Background Image\" in context menu."
+    "message": "Adds \"View Background Image\" to the context menu."
   },
   "feedback": {
     "message": "Feedback"
@@ -12,12 +12,15 @@
     "message": "Donation"
   },
   "security": {
-    "message": "The extension does not work on this page for security reasons."
+    "message": "The extension is not allowed on special pages."
   },
   "reload": {
-    "message": "Please reload the tab."
+    "message": "Reload pages after installing or updating the extension."
   },
   "failure": {
-    "message": "Failed to get the background image."
+    "message": "Could not view background images"
+  },
+  "report": {
+    "message": "Report a problem?"
   }
 }

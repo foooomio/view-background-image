@@ -1,5 +1,5 @@
 import { getImages } from './connection.js';
-import { NotFoundError, showError } from './error.js';
+import { showError } from './error.js';
 import { setupGallery } from './gallery.js';
 import { init } from './init.js';
 import { DAY, removeExpiredCache } from './utils.js';
@@ -12,7 +12,7 @@ try {
   const images = await getImages(key ?? '');
 
   if (images.length === 0) {
-    throw new NotFoundError();
+    throw new Error('No background images found.');
   }
 
   setupGallery(images);

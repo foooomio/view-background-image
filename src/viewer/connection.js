@@ -1,11 +1,11 @@
-import { ConnectionError } from './error.js';
-
 /**
  * @param {unknown} value
  * @returns {value is string[]}
  */
 function isArrayOfString(value) {
-  return Array.isArray(value) && value.every((item) => item === 'string');
+  return (
+    Array.isArray(value) && value.every((item) => typeof item === 'string')
+  );
 }
 
 /**
@@ -32,11 +32,7 @@ export async function getImages(key) {
     .catch((error) => error.message);
 
   if (!isArrayOfString(response)) {
-    if (typeof response === 'string') {
-      throw new ConnectionError(response);
-    } else {
-      throw new Error(JSON.stringify(response));
-    }
+    throw new Error(String(response));
   }
 
   localStorage.setItem(key, JSON.stringify(response));

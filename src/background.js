@@ -22,7 +22,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 });
 
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
-  if (!tab?.id) {
+  if (tab?.id == null) {
     throw new Error('tab.id is not set.');
   }
 
@@ -30,7 +30,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
     .sendMessage(tab.id, null, { frameId: info.frameId })
     .catch((error) => error.message);
 
-  const key = Date.now().toString();
+  const key = String(Date.now());
 
   cache.set(key, response);
 

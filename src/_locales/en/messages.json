@@ -12,13 +12,13 @@
     "message": "Donation"
   },
   "security": {
-    "message": "The extension is not allowed on special pages."
+    "message": "The extension is not allowed to run on special pages."
   },
   "reload": {
     "message": "Reload pages after installing or updating the extension."
   },
   "failure": {
-    "message": "Could not view background images"
+    "message": "Cannot view background images"
   },
   "report": {
     "message": "Report a problem?"

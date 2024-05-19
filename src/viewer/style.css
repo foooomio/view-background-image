@@ -8,12 +8,33 @@ body {
   text-align: center;
   color: var(--text-color);
   background-color: var(--bg-color);
+  font-size: 1rem;
   font-family: sans-serif;
 }
 
+a {
+  color: var(--text-color);
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
 h1 {
-  margin: 1rem 0;
-  font-size: 24px;
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+#nav a {
+  text-decoration: none;
+}
+
+#nav div {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid var(--text-color);
+  padding: 0.2rem 0.4rem;
+  margin: 0.2rem;
 }
 
 #gallery figure {
@@ -26,37 +47,23 @@ h1 {
   transition: 0.2s;
 }
 
-#gallery img:hover {
-  opacity: 0.9;
-}
-
 #gallery figcaption {
   margin-top: 1rem;
-  font-size: 16px;
 }
 
-nav {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
+#error {
+  margin-top: 6rem;
+  line-height: 1.8;
 }
 
-nav a {
-  color: var(--text-color);
-  font-size: 14px;
-  text-decoration: none;
+#error ul {
+  width: fit-content;
+  margin: 2rem auto;
+  text-align: left;
 }
 
-nav a:hover {
-  opacity: 0.9;
-}
-
-nav div {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid var(--text-color);
-  padding: 0.4rem;
-  margin: 0.2rem;
+#error p {
+  margin: 2rem 0;
 }
 
 .hidden {

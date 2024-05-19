@@ -32,7 +32,12 @@ export async function getImages(key) {
     .catch((error) => error.message);
 
   if (!isArrayOfString(response)) {
-    throw new Error(String(response));
+    if (typeof response === 'string') {
+      throw new Error(response);
+    } else {
+      console.error(response);
+      throw new Error('Unknown error.');
+    }
   }
 
   localStorage.setItem(key, JSON.stringify(response));

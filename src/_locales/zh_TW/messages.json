@@ -1,20 +1,26 @@
 {
   "extName": {
-    "message": "檢視背景圖片"
+    "message": "顯示背景圖像"
   },
   "extDescription": {
-    "message": "\"檢視背景圖片\"上下文菜單。"
+    "message": "將「顯示背景圖像」新增至上下文功能表。"
   },
-  "title": {
-    "message": "檢視背景圖片"
+  "feedback": {
+    "message": "評價"
+  },
+  "donation": {
+    "message": "捐款"
   },
   "security": {
-    "message": "出於安全原因，該擴展名不適用於此頁面。"
+    "message": "不允許在特殊頁面上運行擴充功能。"
   },
   "reload": {
-    "message": "請重新加載標籤。"
+    "message": "請在安裝或更新擴充功能後重新載入頁面。"
   },
   "failure": {
-    "message": "不能得到的背景圖片。\n報告問題？"
+    "message": "無法顯示背景圖像"
+  },
+  "report": {
+    "message": "報告問題？"
   }
 }

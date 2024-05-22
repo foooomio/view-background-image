@@ -3,18 +3,24 @@
     "message": "Skatīt fona attēlu"
   },
   "extDescription": {
-    "message": "\"Skatīt fona attēlu\" konteksta izvēlnē."
+    "message": "Konteksta izvēlnei pievieno “Skatīt fona attēlu”."
   },
-  "title": {
-    "message": "Skatīt fona attēlu"
+  "review": {
+    "message": "Pārskats"
+  },
+  "donation": {
+    "message": "Ziedojums"
   },
   "security": {
-    "message": "Drošības apsvērumu dēļ paplašinājums šajā lapā nedarbojas."
+    "message": "Paplašinājumam nav atļauts darboties īpašās lapās."
   },
   "reload": {
-    "message": "Lūdzu, atkārtoti ielādējiet cilni."
+    "message": "Pēc paplašinājuma instalēšanas vai atjaunināšanas atkārtoti ielādējiet lapas."
   },
   "failure": {
-    "message": "Neizdevās iegūt fona attēlu.\nZiņot par problēmu?"
+    "message": "Nevar apskatīt fona attēlus"
+  },
+  "report": {
+    "message": "Ziņot par problēmu?"
   }
 }

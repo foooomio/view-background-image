@@ -1,20 +1,26 @@
 {
   "extName": {
-    "message": "查看背景图像"
+    "message": "显示背景图像"
   },
   "extDescription": {
-    "message": "\"查看背景图像\"上下文菜单上。"
+    "message": "将「显示背景图像」添加到上下文菜单。"
   },
-  "title": {
-    "message": "查看背景图像"
+  "feedback": {
+    "message": "评价"
+  },
+  "donation": {
+    "message": "捐款"
   },
   "security": {
-    "message": "出于安全原因，该扩展名不适用于此页面。"
+    "message": "不允许在特殊页面上运行扩展。"
   },
   "reload": {
-    "message": "请重新加载标签。"
+    "message": "请在安装或更新扩展后重新加载页面。"
   },
   "failure": {
-    "message": "不能得到的背景图像。\n报告问题？"
+    "message": "无法显示背景图像"
+  },
+  "report": {
+    "message": "报告问题？"
   }
 }

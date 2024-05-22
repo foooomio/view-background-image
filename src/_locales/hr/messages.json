@@ -3,18 +3,24 @@
     "message": "Pogledaj pozadinsku sliku"
   },
   "extDescription": {
-    "message": "\"Pogledaj pozadinsku sliku\" u kontekstnom izborniku."
+    "message": "Dodaje „Pogledaj pozadinsku sliku“ u kontekstni izbornik."
   },
-  "title": {
-    "message": "Pogledaj pozadinsku sliku"
+  "review": {
+    "message": "Pregled"
+  },
+  "donation": {
+    "message": "Donacija"
   },
   "security": {
-    "message": "Proširenje ne funkcionira na ovoj stranici iz sigurnosnih razloga."
+    "message": "Ekstenzija se ne smije izvoditi na posebnim stranicama."
   },
   "reload": {
-    "message": "Ponovno umetnite karticu."
+    "message": "Ponovno učitavanje stranica nakon instaliranja ili ažuriranja proširenja."
   },
   "failure": {
-    "message": "Nije moguće dobiti pozadinsku sliku.\nPrijaviti problem?"
+    "message": "Nije moguće vidjeti pozadinsku sliku"
+  },
+  "report": {
+    "message": "Prijaviti problem?"
   }
 }

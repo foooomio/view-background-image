@@ -3,18 +3,24 @@
     "message": "Zobrazit obrázek na pozadí"
   },
   "extDescription": {
-    "message": "\"Zobrazit obrázek na pozadí\" v místní nabídce."
+    "message": "Přidá „Zobrazit obrázek na pozadí“ do kontextové nabídky."
   },
-  "title": {
-    "message": "Zobrazit obrázek na pozadí"
+  "review": {
+    "message": "Posouzení"
+  },
+  "donation": {
+    "message": "Dar"
   },
   "security": {
-    "message": "Rozšíření na této stránce nefunguje z bezpečnostních důvodů."
+    "message": "Rozšíření není povoleno spouštět na speciálních stránkách."
   },
   "reload": {
-    "message": "Znovu načtěte kartu."
+    "message": "Po instalaci nebo aktualizaci rozšíření znovu načtěte stránku."
   },
   "failure": {
-    "message": "Nepodařilo se získat obrázek na pozadí.\nNahlásit problém?"
+    "message": "Nelze zobrazit obrázky na pozadí"
+  },
+  "report": {
+    "message": "Nahlásit problém?"
   }
 }

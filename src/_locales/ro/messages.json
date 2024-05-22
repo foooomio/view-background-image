@@ -1,20 +1,26 @@
 {
   "extName": {
-    "message": "Vezi imaginea de fundal"
+    "message": "Vizualizare imagine de fundal"
   },
   "extDescription": {
-    "message": "\"Vezi imaginea de fundal\" în meniul contextual."
+    "message": "Adaugă „Vizualizare imagine de fundal” în meniul contextual."
   },
-  "title": {
-    "message": "Vezi imaginea de fundal"
+  "review": {
+    "message": "Revizuire"
+  },
+  "donation": {
+    "message": "Donare"
   },
   "security": {
-    "message": "Extensia nu funcționează pe această pagină din motive de securitate."
+    "message": "Extensia nu are voie să ruleze pe pagini speciale."
   },
   "reload": {
-    "message": "Vă rugăm să reîncărcați fila."
+    "message": "Reîncărcați paginile după instalarea sau actualizarea extensiei."
   },
   "failure": {
-    "message": "Eroarea de a obține imaginea de fundal.\nRaportează o problemă?"
+    "message": "Nu se pot vizualiza imagini de fundal"
+  },
+  "report": {
+    "message": "Raportează o problemă?"
   }
 }

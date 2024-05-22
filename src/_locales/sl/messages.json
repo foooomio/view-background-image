@@ -1,20 +1,26 @@
 {
   "extName": {
-    "message": "Pokaži sliko ozadja"
+    "message": "Ogled slike ozadja"
   },
   "extDescription": {
-    "message": "\"Pokaži sliko ozadja\" v kontekstnem meniju."
+    "message": "V kontekstni meni doda „Ogled slike ozadja“."
   },
-  "title": {
-    "message": "Pokaži sliko ozadja"
+  "review": {
+    "message": "Pregled"
+  },
+  "donation": {
+    "message": "Donacija"
   },
   "security": {
-    "message": "Razširitev na tej strani zaradi varnostnih razlogov ne deluje."
+    "message": "Razširitve ni dovoljeno izvajati na posebnih straneh."
   },
   "reload": {
-    "message": "Ponovno naložite zavihek."
+    "message": "Ponovno naložite strani po namestitvi ali posodobitvi razširitve."
   },
   "failure": {
-    "message": "Ni bilo mogoče dobiti slike ozadja.\nPrijavite težavo?"
+    "message": "Ni mogoče prikazati slike ozadja"
+  },
+  "report": {
+    "message": "Prijavite težavo?"
   }
 }

@@ -3,18 +3,24 @@
     "message": "Näytä taustakuva"
   },
   "extDescription": {
-    "message": "\"Näytä taustakuva\" in contextmenu."
+    "message": "Lisää ”Näytä taustakuva” kontekstivalikkoon."
   },
-  "title": {
-    "message": "Näytä taustakuva"
+  "review": {
+    "message": "Arvostelu"
+  },
+  "donation": {
+    "message": "Lahjoitus"
   },
   "security": {
-    "message": "Laajennus ei toimi tällä sivulla turvallisuussyistä."
+    "message": "Laajennuksia ei saa käyttää erikoissivuilla."
   },
   "reload": {
-    "message": "Lataa uudelleen välilehti."
+    "message": "Lataa sivut uudelleen laajennuksen asentamisen tai päivityksen jälkeen."
   },
   "failure": {
-    "message": "Taustakuvan saaminen epäonnistui.\nIlmoita ongelma?"
+    "message": "Taustakuvia ei voi katsella"
+  },
+  "report": {
+    "message": "Ilmoita ongelma?"
   }
 }

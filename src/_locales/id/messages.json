@@ -3,18 +3,24 @@
     "message": "Lihat Gambar Latar Belakang"
   },
   "extDescription": {
-    "message": "\"Lihat Gambar Latar Belakang\" di menu konteks."
+    "message": "Menambahkan “Lihat Gambar Latar Belakang” ke menu konteks."
   },
-  "title": {
-    "message": "Lihat Gambar Latar Belakang"
+  "review": {
+    "message": "Tinjauan"
+  },
+  "donation": {
+    "message": "Sumbangan"
   },
   "security": {
-    "message": "Ekstensi tidak berfungsi di halaman ini karena alasan keamanan."
+    "message": "Ekstensi tidak diperbolehkan berjalan pada halaman khusus."
   },
   "reload": {
-    "message": "Harap muat kembali tab."
+    "message": "Muat ulang halaman setelah menginstal atau memperbarui ekstensi."
   },
   "failure": {
-    "message": "Gagal mendapatkan gambar latar belakang.\nLaporkan masalah?"
+    "message": "Tidak dapat melihat gambar latar belakang"
+  },
+  "report": {
+    "message": "Laporkan masalah?"
   }
 }

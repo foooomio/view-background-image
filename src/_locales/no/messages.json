@@ -1,20 +1,26 @@
 {
   "extName": {
-    "message": "Se bakgrunnsbilde"
+    "message": "Vis bakgrunnsbilde"
   },
   "extDescription": {
-    "message": "\"Se bakgrunnsbilde\" i kontekstmenyen."
+    "message": "Legger til «Vis bakgrunnsbilde» i kontekstmenyen."
   },
-  "title": {
-    "message": "Se bakgrunnsbilde"
+  "review": {
+    "message": "Anmeldelse"
+  },
+  "donation": {
+    "message": "Donasjon"
   },
   "security": {
-    "message": "Utvidelsen fungerer ikke på denne siden av sikkerhetshensyn."
+    "message": "Utvidelsen er ikke tillatt å kjøre på spesielle sider."
   },
   "reload": {
-    "message": "Venligst fyll inn kategorien."
+    "message": "Last inn sider på nytt etter installasjon eller oppdatering av utvidelsen."
   },
   "failure": {
-    "message": "Kunne ikke få tak i bakgrunnsbilde.\nVil du rapportere en feil?"
+    "message": "Kan ikke vise bakgrunnsbilder"
+  },
+  "report": {
+    "message": "Vil du rapportere en feil?"
   }
 }

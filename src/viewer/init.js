@@ -5,7 +5,7 @@ export function init() {
   document.title = extName;
   $('h1').textContent = extName;
 
-  $('feedback').textContent = '☆ ' + chrome.i18n.getMessage('feedback');
+  $('review').textContent = '☆ ' + chrome.i18n.getMessage('review');
   $('donation').textContent = '♡ ' + chrome.i18n.getMessage('donation');
 
   $('error-message').textContent = '⚠️ ' + chrome.i18n.getMessage('failure');

@@ -3,10 +3,10 @@
     "message": "View Background Image"
   },
   "extDescription": {
-    "message": "Adds \"View Background Image\" to the context menu."
+    "message": "Adds “View Background Image” to the context menu."
   },
-  "feedback": {
-    "message": "Feedback"
+  "review": {
+    "message": "Review"
   },
   "donation": {
     "message": "Donation"

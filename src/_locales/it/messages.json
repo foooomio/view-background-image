@@ -3,18 +3,24 @@
     "message": "Visualizza immagine di sfondo"
   },
   "extDescription": {
-    "message": "\"Visualizza immagine di sfondo\" nel menu contestuale."
+    "message": "Aggiunge «Visualizza immagine di sfondo» al menu contestuale."
   },
-  "title": {
-    "message": "Visualizza immagine di sfondo"
+  "review": {
+    "message": "Revisione"
+  },
+  "donation": {
+    "message": "Donazione"
   },
   "security": {
-    "message": "L'estensione non funziona su questa pagina per motivi di sicurezza."
+    "message": "L'estensione non può essere eseguita su pagine speciali."
   },
   "reload": {
-    "message": "Si prega di ricaricare la scheda."
+    "message": "Ricarica le pagine dopo aver installato o aggiornato l'estensione."
   },
   "failure": {
-    "message": "Impossibile ottenere l'immagine di sfondo.\nSegnala un problema?"
+    "message": "Impossibile visualizzare le immagini di sfondo"
+  },
+  "report": {
+    "message": "Segnala un problema?"
   }
 }

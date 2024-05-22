@@ -3,18 +3,24 @@
     "message": "Hintergrundbild anzeigen"
   },
   "extDescription": {
-    "message": "\"Hintergrundbild anzeigen\" im Kontextmenü."
+    "message": "Fügt „Hintergrundbild anzeigen“ zum Kontextmenü hinzu."
   },
-  "title": {
-    "message": "Hintergrundbild anzeigen"
+  "review": {
+    "message": "Rezension"
+  },
+  "donation": {
+    "message": "Spende"
   },
   "security": {
-    "message": "Aus Sicherheitsgründen funktioniert die Erweiterung auf dieser Seite nicht."
+    "message": "ADie Erweiterung darf nicht auf speziellen Seiten ausgeführt werden."
   },
   "reload": {
-    "message": "Bitte lade den Tab neu."
+    "message": "Laden Sie die Seiten nach der Installation oder Aktualisierung der Erweiterung neu."
   },
   "failure": {
-    "message": "Das Hintergrundbild konnte nicht abgerufen werden.\nEin Problem melden?"
+    "message": "Das Hintergrundbild konnte nicht abgerufen werden"
+  },
+  "report": {
+    "message": "Ein Problem melden?"
   }
 }

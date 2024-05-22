@@ -1,20 +1,26 @@
 {
   "extName": {
-    "message": "Ipakita ang Background Image"
+    "message": "Tingnan ang Larawan sa Background"
   },
   "extDescription": {
-    "message": "\"Ipakita ang Background Image\" sa menu ng konteksto."
+    "message": "Nagdaragdag ng “Tingnan ang Larawan sa Background” sa menu ng konteksto."
   },
-  "title": {
-    "message": "Ipakita ang Background Image"
+  "review": {
+    "message": "Pagsusuri"
+  },
+  "donation": {
+    "message": "Donasyon"
   },
   "security": {
-    "message": "Ang extension ay hindi gumagana sa pahinang ito para sa mga kadahilanang pangseguridad."
+    "message": "Ang extension ay hindi pinapayagang tumakbo sa mga espesyal na pahina."
   },
   "reload": {
-    "message": "Mangyaring i-reload ang tab."
+    "message": "I-reload ang mga page pagkatapos i-install o i-update ang extension."
   },
   "failure": {
-    "message": "Nabigong makuha ang imahe sa background.\nMag-ulat ng isang isyu?"
+    "message": "Hindi matingnan ang mga larawan sa background"
+  },
+  "report": {
+    "message": "Mag-ulat ng isang isyu?"
   }
 }

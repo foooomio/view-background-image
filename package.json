@@ -5,11 +5,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "node --test",
+    "test": "playwright test",
     "format": "prettier --write .",
     "format-check": "prettier --check ."
   },
   "devDependencies": {
+    "@playwright/test": "^1.44.1",
     "@types/chrome": "^0.0.268",
     "@types/node": "^20.12.12",
     "prettier": "^3.2.5",

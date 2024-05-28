@@ -5,7 +5,7 @@ Web Extension that adds "View background image" to the context menu
 ## Installation
 
 > [!NOTE]
-> The extension requires permission to access your data on all websites only for viewing background images.
+> The extension requires permission to read and change all your data on all websites for viewing background images.
 
 [![Available in the Chrome Web Store](https://user-images.githubusercontent.com/1075914/104359656-4698d600-5553-11eb-99d5-2344ac26b544.png)](https://chrome.google.com/webstore/detail/cegndknljaapfbnmfnagomhhgbajjibd)
 
@@ -17,7 +17,7 @@ Web Extension that adds "View background image" to the context menu
 
 1. **Reload pages** after installing the extension
 2. Open the context menu on the images
-3. Select "View background image"
+3. Select "View Background Image"
 4. The images will appear in a new tab
 
 ## Known Issues

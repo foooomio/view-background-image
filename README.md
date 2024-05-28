@@ -7,6 +7,11 @@ Web Extension that adds "View background image" to the context menu
 > [!NOTE]
 > The extension requires permission to read and change all your data on all websites for viewing background images.
 
+> [!NOTE]
+> For Firefox users
+>
+> After installation, open about:addons and **enable Permissions > Access your data for all websites** for the addon. [Please see this issue for more details.](https://discourse.mozilla.org/t/content-scripts-do-not-load/130009)
+
 [![Available in the Chrome Web Store](https://user-images.githubusercontent.com/1075914/104359656-4698d600-5553-11eb-99d5-2344ac26b544.png)](https://chrome.google.com/webstore/detail/cegndknljaapfbnmfnagomhhgbajjibd)
 
 [![Get the add-on for Firefox](https://user-images.githubusercontent.com/1075914/104359743-64663b00-5553-11eb-8842-81c102a08a1a.png)](https://addons.mozilla.org/firefox/addon/view-background-images/)

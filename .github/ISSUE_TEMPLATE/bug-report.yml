@@ -1,0 +1,45 @@
+name: Bug report
+description: Describe a bug in detail.
+title: '[Bug]: '
+labels:
+  - bug
+body:
+  - type: textarea
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Page URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Extension Version
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Browser and Version
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Confirmation
+      options:
+        - label: I tried the solutions below.
+          required: true
+  - type: markdown
+    attributes:
+      value: >-
+        - Reload pages
+        - Restart browser
+        - (Firefox only) [Enable Permissions > Access your data for all
+        websites](https://github.com/foooomio/view-background-image/issues/39)
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://issue-forms-creator.netlify.app)

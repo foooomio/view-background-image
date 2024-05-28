@@ -10,7 +10,7 @@ case "$1" in
     yarn prettier --write src/manifest.json
     ;;
   'firefox')
-    jq '.background|={"scripts": ["background.js"]}' < src/manifest.json |
+    jq '.background|={"scripts": ["background.js"]}' < src/manifest.json | \
     jq '.browser_specific_settings|={"gecko":{"id":"{f1f7b448-d666-46c6-9dfa-3ee4c5c83578}"}}' > tmp/manifest.json
     mv tmp/manifest.json src/manifest.json
     yarn prettier --write src/manifest.json

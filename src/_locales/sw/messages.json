@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Angalia Picha ya Mandharinyuma"
-    },
-    "extDescription": {
-        "message": "\"Angalia Picha ya Mandharinyuma\" kwenye menyu ya muktadha."
-    },
-    "title": {
-        "message": "Angalia Picha ya Mandharinyuma"
-    },
-    "security": {
-        "message": "Ugani haufanyi kazi kwenye ukurasa huu kwa sababu za usalama."
-    },
-    "reload": {
-        "message": "Tafadhali pakia tena kichupo hicho."
-    },
-    "failure": {
-        "message": "Imeshindwa kupata picha ya mandharinyuma.\nRipoti suala?"
-    }
+  "extName": {
+    "message": "Tazama Picha ya Mandharinyuma"
+  },
+  "extDescription": {
+    "message": "Inaongeza “Tazama Picha ya Mandharinyuma” kwenye menyu ya muktadha."
+  },
+  "review": {
+    "message": "Kagua"
+  },
+  "donation": {
+    "message": "Mchango"
+  },
+  "security": {
+    "message": "Kiendelezi hakiruhusiwi kuendeshwa kwenye kurasa maalum."
+  },
+  "reload": {
+    "message": "Pakia upya kurasa baada ya kusakinisha au kusasisha kiendelezi."
+  },
+  "failure": {
+    "message": "Haiwezi kuona picha za usuli"
+  },
+  "report": {
+    "message": "Ripoti suala?"
+  }
 }

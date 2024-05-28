@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Visa bakgrundsbild"
-    },
-    "extDescription": {
-        "message": "\"Visa bakgrundsbild\" i snabbmenyn."
-    },
-    "title": {
-        "message": "Visa bakgrundsbild"
-    },
-    "security": {
-        "message": "Utvidgningen fungerar inte på den här sidan av säkerhetsskäl."
-    },
-    "reload": {
-        "message": "Vänligen ladda om fliken."
-    },
-    "failure": {
-        "message": "Misslyckades med att få bakgrundsbilden.\nRapportera ett problem?"
-    }
+  "extName": {
+    "message": "Visa bakgrundsbild"
+  },
+  "extDescription": {
+    "message": "Lägger till ”Visa bakgrundsbild” i snabbmenyn."
+  },
+  "review": {
+    "message": "Recension"
+  },
+  "donation": {
+    "message": "Donation"
+  },
+  "security": {
+    "message": "Tillägget får inte köras på specialsidor."
+  },
+  "reload": {
+    "message": "Ladda om sidor efter installation eller uppdatering av tillägget."
+  },
+  "failure": {
+    "message": "Kan inte visa bakgrundsbilder"
+  },
+  "report": {
+    "message": "Rapportera ett problem?"
+  }
 }

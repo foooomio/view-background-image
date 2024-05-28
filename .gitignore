@@ -1,7 +1,7 @@
-*.zip
-*.pem
 tmp/
 dist/
-package-lock.json
-yarn.lock
 node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

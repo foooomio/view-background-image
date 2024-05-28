@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Skatīt fona attēlu"
-    },
-    "extDescription": {
-        "message": "\"Skatīt fona attēlu\" konteksta izvēlnē."
-    },
-    "title": {
-        "message": "Skatīt fona attēlu"
-    },
-    "security": {
-        "message": "Drošības apsvērumu dēļ paplašinājums šajā lapā nedarbojas."
-    },
-    "reload": {
-        "message": "Lūdzu, atkārtoti ielādējiet cilni."
-    },
-    "failure": {
-        "message": "Neizdevās iegūt fona attēlu.\nZiņot par problēmu?"
-    }
+  "extName": {
+    "message": "Skatīt fona attēlu"
+  },
+  "extDescription": {
+    "message": "Konteksta izvēlnei pievieno “Skatīt fona attēlu”."
+  },
+  "review": {
+    "message": "Pārskats"
+  },
+  "donation": {
+    "message": "Ziedojums"
+  },
+  "security": {
+    "message": "Paplašinājumam nav atļauts darboties īpašās lapās."
+  },
+  "reload": {
+    "message": "Pēc paplašinājuma instalēšanas vai atjaunināšanas atkārtoti ielādējiet lapas."
+  },
+  "failure": {
+    "message": "Nevar apskatīt fona attēlus"
+  },
+  "report": {
+    "message": "Ziņot par problēmu?"
+  }
 }

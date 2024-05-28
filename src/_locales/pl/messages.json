@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Pokaż obraz tła"
-    },
-    "extDescription": {
-        "message": "\"Pokaż obraz tła\" w menu kontekstowym."
-    },
-    "title": {
-        "message": "Pokaż obraz tła"
-    },
-    "security": {
-        "message": "Rozszerzenie nie działa na tej stronie ze względów bezpieczeństwa."
-    },
-    "reload": {
-        "message": "Załaduj kartę ponownie."
-    },
-    "failure": {
-        "message": "Nie udało się uzyskać obrazu tła.\nChcesz zgłosić błąd?"
-    }
+  "extName": {
+    "message": "Wyświetl obraz tła"
+  },
+  "extDescription": {
+    "message": "Dodaje „Wyświetl obraz tła” do menu kontekstowego."
+  },
+  "review": {
+    "message": "Recenzja"
+  },
+  "donation": {
+    "message": "Darowizna"
+  },
+  "security": {
+    "message": "Rozszerzenie nie może działać na specjalnych stronach."
+  },
+  "reload": {
+    "message": "Załaduj ponownie strony po zainstalowaniu lub aktualizacji rozszerzenia."
+  },
+  "failure": {
+    "message": "Nie można wyświetlić obrazów tła"
+  },
+  "report": {
+    "message": "Chcesz zgłosić błąd?"
+  }
 }

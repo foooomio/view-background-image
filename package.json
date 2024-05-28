@@ -1,18 +1,19 @@
 {
-    "name": "view-background-image",
-    "version": "0.0.0",
-    "scripts": {
-        "build": "./build.sh",
-        "lint": "eslint . && editorconfig-checker",
-        "test": "mocha"
-    },
-    "private": true,
-    "license": "MIT",
-    "devDependencies": {
-        "@types/chrome": "*",
-        "editorconfig-checker": "*",
-        "eslint": "*",
-        "mocha": "*",
-        "puppeteer-core": "*"
-    }
+  "name": "view-background-image",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "format": "prettier --write .",
+    "format-check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/chrome": "^0.0.268",
+    "@types/node": "^20.12.12",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
 }

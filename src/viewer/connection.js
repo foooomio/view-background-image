@@ -1,0 +1,45 @@
+/**
+ * @param {unknown} value
+ * @returns {value is string[]}
+ */
+function isArrayOfString(value) {
+  return (
+    Array.isArray(value) && value.every((item) => typeof item === 'string')
+  );
+}
+
+/**
+ * @param {string} key
+ * @returns {Promise<string[]>}
+ * @throws {Error}
+ */
+export async function getImages(key) {
+  const cache = localStorage.getItem(key);
+
+  if (cache) {
+    return JSON.parse(cache);
+  }
+
+  /**
+   * `string[]` is an array of background image.
+   * `string` is an error message.
+   * `null` if invalid key.
+   *
+   * @type {unknown}
+   */
+  const response = await chrome.runtime
+    .sendMessage(key)
+    .catch((error) => error.message);
+
+  if (!isArrayOfString(response)) {
+    if (typeof response === 'string') {
+      throw new Error(response);
+    } else {
+      console.error(response);
+      throw new Error('Unknown error.');
+    }
+  }
+
+  localStorage.setItem(key, JSON.stringify(response));
+  return response;
+}

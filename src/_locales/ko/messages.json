@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "배경 이미지 보기"
-    },
-    "extDescription": {
-        "message": "컨텍스트 메뉴에서 \"배경 이미지보기\"."
-    },
-    "title": {
-        "message": "배경 이미지 보기"
-    },
-    "security": {
-        "message": "보안상의 이유로 확장 프로그램이이 페이지에서 작동하지 않습니다."
-    },
-    "reload": {
-        "message": "탭을 다시로드하십시오."
-    },
-    "failure": {
-        "message": "배경 이미지를 가져 오는 데 실패했습니다.\n문제를 신고 하시겠습니까?"
-    }
+  "extName": {
+    "message": "배경 이미지 표시"
+  },
+  "extDescription": {
+    "message": "컨텍스트 메뉴에 “배경 이미지 표시”를 추가합니다."
+  },
+  "review": {
+    "message": "평가"
+  },
+  "donation": {
+    "message": "기부"
+  },
+  "security": {
+    "message": "확장 프로그램은 특수 페이지에서 실행할 수 없습니다."
+  },
+  "reload": {
+    "message": "확장 프로그램 설치 또는 업데이트 후 페이지를 다시 불러와야 합니다."
+  },
+  "failure": {
+    "message": "배경 이미지를 표시할 수 없습니다"
+  },
+  "report": {
+    "message": "문제를 보고하시겠습니까?"
+  }
 }

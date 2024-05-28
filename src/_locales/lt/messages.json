@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Rodyti fono piešinį"
-    },
-    "extDescription": {
-        "message": "Kontekstiniame meniu \"Rodyti fono piešinį\"."
-    },
-    "title": {
-        "message": "Rodyti fono piešinį"
-    },
-    "security": {
-        "message": "Plėtinys šiame puslapyje neveikia saugumo sumetimais."
-    },
-    "reload": {
-        "message": "Įkelkite skirtuką iš naujo."
-    },
-    "failure": {
-        "message": "Nepavyko gauti fono paveikslėlio.\nPranešti apie problemą?"
-    }
+  "extName": {
+    "message": "Rodyti fono paveikslėlį"
+  },
+  "extDescription": {
+    "message": "Į kontekstinį meniu įtraukite „Rodyti fono paveikslėlį“."
+  },
+  "review": {
+    "message": "Apžvalga"
+  },
+  "donation": {
+    "message": "Donorystė"
+  },
+  "security": {
+    "message": "Pratęsimo neleidžiama paleisti specialiuose puslapiuose."
+  },
+  "reload": {
+    "message": "Įdiegę arba atnaujinę plėtinį iš naujo įkelkite puslapius."
+  },
+  "failure": {
+    "message": "Negalima rodyti fono paveikslėlio"
+  },
+  "report": {
+    "message": "Pranešti apie problemą?"
+  }
 }

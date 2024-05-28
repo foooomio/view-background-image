@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Papar Imej Latar belakang"
-    },
-    "extDescription": {
-        "message": "\"Papar Imej Latar belakang\" dalam menu konteks."
-    },
-    "title": {
-        "message": "Papar Imej Latar belakang"
-    },
-    "security": {
-        "message": "Sambungan tidak berfungsi di halaman ini atas alasan keselamatan."
-    },
-    "reload": {
-        "message": "Sila muatkan semula tab."
-    },
-    "failure": {
-        "message": "Gagal mendapatkan gambar latar.\nLaporkan masalah?"
-    }
+  "extName": {
+    "message": "Lihat Imej Latar Belakang"
+  },
+  "extDescription": {
+    "message": "Menambahkan “Lihat Imej Latar Belakang” pada menu konteks."
+  },
+  "review": {
+    "message": "Semakan"
+  },
+  "donation": {
+    "message": "Derma"
+  },
+  "security": {
+    "message": "Sambungan tidak dibenarkan untuk dijalankan pada halaman khas."
+  },
+  "reload": {
+    "message": "Muat semula halaman selepas memasang atau mengemas kini sambungan."
+  },
+  "failure": {
+    "message": "Tidak dapat melihat imej latar belakang"
+  },
+  "report": {
+    "message": "Laporkan masalah?"
+  }
 }

@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Vaata taustapilti"
-    },
-    "extDescription": {
-        "message": "\"Vaata taustapilti\" kontekstimenüüs."
-    },
-    "title": {
-        "message": "Vaata taustapilti"
-    },
-    "security": {
-        "message": "Laiendus sellel lehel turvalisuse huvides ei tööta."
-    },
-    "reload": {
-        "message": "Laadige vaheleht uuesti."
-    },
-    "failure": {
-        "message": "Taustapildi hankimine ebaõnnestus.\nKas teatada probleemist?"
-    }
+  "extName": {
+    "message": "Vaata taustapilti"
+  },
+  "extDescription": {
+    "message": "Lisab kontekstmenüüsse „Vaata taustapilti“."
+  },
+  "review": {
+    "message": "Ülevaade"
+  },
+  "donation": {
+    "message": "Annetus"
+  },
+  "security": {
+    "message": "Laiendusi ei ole lubatud erilehtedel töötada."
+  },
+  "reload": {
+    "message": "Pärast laienduse paigaldamist ja uuendamist laadige leht uuesti."
+  },
+  "failure": {
+    "message": "Taustapilti ei saa kuvada"
+  },
+  "report": {
+    "message": "Kas teatada probleemist?"
+  }
 }

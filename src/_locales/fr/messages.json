@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Afficher l'image de fond"
-    },
-    "extDescription": {
-        "message": "\"Afficher l'image de fond\" dans le menu contextuel."
-    },
-    "title": {
-        "message": "Afficher l'image de fond"
-    },
-    "security": {
-        "message": "L'extension ne fonctionne pas sur cette page pour des raisons de sécurité."
-    },
-    "reload": {
-        "message": "Veuillez recharger l'onglet."
-    },
-    "failure": {
-        "message": "Impossible d'obtenir l'image de fond.\nSignaler un problème?"
-    }
+  "extName": {
+    "message": "Afficher l'image de fond"
+  },
+  "extDescription": {
+    "message": "Ajoute « Afficher l'image de fond » au menu contextuel."
+  },
+  "review": {
+    "message": "Revoir"
+  },
+  "donation": {
+    "message": "Don"
+  },
+  "security": {
+    "message": "L'extension n'est pas autorisée à s'exécuter sur des pages spéciales."
+  },
+  "reload": {
+    "message": "Rechargez les pages après l'installation ou la mise à jour de l'extension."
+  },
+  "failure": {
+    "message": "Impossible d'afficher l'image de fond"
+  },
+  "report": {
+    "message": "Signaler un problème?"
+  }
 }

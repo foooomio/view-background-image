@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Achtergrondafbeelding bekijken"
-    },
-    "extDescription": {
-        "message": "\"Achtergrondafbeelding bekijken\" in contextmenu."
-    },
-    "title": {
-        "message": "Achtergrondafbeelding bekijken"
-    },
-    "security": {
-        "message": "De extensie werkt om veiligheidsredenen niet op deze pagina."
-    },
-    "reload": {
-        "message": "Laad het tabblad opnieuw."
-    },
-    "failure": {
-        "message": "Kan de achtergrondafbeelding niet krijgen.\nEen probleem melden?"
-    }
+  "extName": {
+    "message": "Achtergrondafbeelding bekijken"
+  },
+  "extDescription": {
+    "message": "Voegt „Achtergrondafbeelding bekijken” toe aan het contextmenu."
+  },
+  "review": {
+    "message": "Beoordeling"
+  },
+  "donation": {
+    "message": "Donatie"
+  },
+  "security": {
+    "message": "De extensie mag niet op speciale pagina's worden uitgevoerd."
+  },
+  "reload": {
+    "message": "Laad pagina's opnieuw nadat u de extensie hebt geïnstalleerd of bijgewerkt."
+  },
+  "failure": {
+    "message": "Kan achtergrondafbeeldingen niet bekijken"
+  },
+  "report": {
+    "message": "Een probleem melden?"
+  }
 }

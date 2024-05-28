@@ -1,20 +1,26 @@
 {
-    "extName": {
-        "message": "Ver imagen de fondo"
-    },
-    "extDescription": {
-        "message": "\"Ver imagen de fondo\" en el menú contextual."
-    },
-    "title": {
-        "message": "Ver imagen de fondo"
-    },
-    "security": {
-        "message": "La extensión no funciona en esta página por razones de seguridad."
-    },
-    "reload": {
-        "message": "Por favor, vuelva a cargar la pestaña."
-    },
-    "failure": {
-        "message": "Error al obtener la imagen de fondo.\n¿Reportar un problema?"
-    }
+  "extName": {
+    "message": "Ver imagen de fondo"
+  },
+  "extDescription": {
+    "message": "Agrega «Ver imagen de fondo» al menú contextual."
+  },
+  "review": {
+    "message": "Revisar"
+  },
+  "donation": {
+    "message": "Donación"
+  },
+  "security": {
+    "message": "La extensión no puede ejecutarse en páginas especiales."
+  },
+  "reload": {
+    "message": "Vuelva a cargar la página después de instalar o actualizar la extensión."
+  },
+  "failure": {
+    "message": "No se puede mostrar la imagen de fondo"
+  },
+  "report": {
+    "message": "¿Reportar un problema?"
+  }
 }

@@ -1,20 +1,21 @@
 #!/bin/bash
 
-set -eux
+set -euo pipefail
 
 NAME="view-background-image"
 VERSION="$(jq -r .version src/manifest.json)"
 
+rm -rf dist
 mkdir -p dist
-rm dist/*.zip
 
 # for Chrome
+./manifest.sh chrome
 zip -r "dist/${NAME}-${VERSION}-chrome.zip" src -x "*.DS_Store"
 
 # for Firefox
+./manifest.sh firefox
 cd src
-sed -i -e 's/"service_worker": "background.js"/"scripts": \["background.js"\]/' manifest.json
-
 zip -r "../dist/${NAME}-${VERSION}-firefox.zip" * -x "*.DS_Store"
 
-sed -i -e 's/"scripts": \["background.js"\]/"service_worker": "background.js"/' manifest.json
+cd ..
+./manifest.sh chrome

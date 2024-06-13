@@ -1,19 +1,18 @@
 'use strict';
 
-chrome.runtime.onInstalled.addListener(() => {
-  chrome.contextMenus.create(
-    {
-      contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
-      id: 'background_img',
-      title: chrome.i18n.getMessage('extName'),
-    },
-    () => {
-      if (chrome.runtime.lastError) {
-        console.log(chrome.runtime.lastError);
-      }
-    },
-  );
-});
+chrome.contextMenus.create(
+  {
+    contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
+    documentUrlPatterns: ['http://*/*', 'https://*/*', 'file:///*/*'],
+    id: 'background_img',
+    title: chrome.i18n.getMessage('extName'),
+  },
+  () => {
+    if (chrome.runtime.lastError) {
+      console.log(chrome.runtime.lastError);
+    }
+  },
+);
 
 const cache = new Map();
 

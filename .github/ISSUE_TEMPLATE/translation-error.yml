@@ -1,0 +1,16 @@
+name: Translation Error
+description: Report a translation error.
+title: '[Translation Error]: '
+labels:
+  - translation
+body:
+  - type: textarea
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Locale
+    validations:
+      required: true

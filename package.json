@@ -5,6 +5,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "./scripts/build.sh",
+    "manifest:chrome": "./scripts/manifest.sh chrome",
+    "manifest:firefox": "./scripts/manifest.sh firefox",
     "test": "playwright test",
     "format": "prettier --write .",
     "format-check": "prettier --check ."

@@ -1,6 +1,10 @@
-tmp/
-dist/
+.DS_Store
+*.log*
 node_modules/
+
+/tmp/
+/dist/
+
 /test-results/
 /playwright-report/
 /blob-report/

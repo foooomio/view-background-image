@@ -13,14 +13,14 @@ mkdir -p dist
 find . -name .DS_Store -delete
 
 # for Chrome
-yarn manifest:chrome
-zip -r "dist/${NAME}-${VERSION}-chrome.zip" src
+./scripts/manifest.sh chrome
+zip -r "dist/${NAME}-${VERSION}-chrome.zip" src -x src/manifest.*.json
 
 # for Firefox
-yarn manifest:firefox
+./scripts/manifest.sh firefox
 (
   cd src
-  zip -r "../dist/${NAME}-${VERSION}-firefox.zip" ./*
+  zip -r "../dist/${NAME}-${VERSION}-firefox.zip" ./* -x manifest.*.json
 )
 
-yarn manifest:chrome
+./scripts/manifest.sh chrome

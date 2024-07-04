@@ -17,6 +17,7 @@ try {
 
   setupGallery(images);
 } catch (error) {
+  console.dir(error);
   if (error instanceof Error) {
     showError(error);
   }

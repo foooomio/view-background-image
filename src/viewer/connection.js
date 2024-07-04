@@ -35,11 +35,11 @@ export async function getImages(key) {
     if (typeof response === 'string') {
       throw new Error(response);
     } else {
-      console.error(response);
-      throw new Error('Unknown error.');
+      throw new Error('Unknown error.', { cause: response });
     }
   }
 
   localStorage.setItem(key, JSON.stringify(response));
+
   return response;
 }

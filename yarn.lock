@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@playwright/test@^1.44.1":
-  version "1.44.1"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.44.1.tgz#cc874ec31342479ad99838040e99b5f604299bcb"
-  integrity sha512-1hZ4TNvD5z9VuhNJ/walIjvMVvYkZKf71axoF/uiAqpntQJXpG64dlXhoDXE3OczPuTuvjf/M5KWFg5VAVUS3Q==
+"@playwright/test@^1.45.1":
+  version "1.45.1"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.45.1.tgz#819b90fa43d17000fce5ebd127043fd661938b7a"
+  integrity sha512-Wo1bWTzQvGA7LyKGIZc8nFSTFf2TkthGIFBR+QVNilvwouGzFd4PYukZe3rvf5PSqjHi1+1NyKSDZKcQWETzaA==
   dependencies:
-    playwright "1.44.1"
+    playwright "1.45.1"
 
 "@types/chrome@^0.0.268":
   version "0.0.268"
@@ -34,10 +34,10 @@
   resolved "https://registry.yarnpkg.com/@types/har-format/-/har-format-1.2.15.tgz#f352493638c2f89d706438a19a9eb300b493b506"
   integrity sha512-RpQH4rXLuvTXKR0zqHq3go0RVXYv/YVqv4TnPH95VbwUxZdQlK1EtcMvQvMpDngHbt13Csh9Z4qT9AbkiQH5BA==
 
-"@types/node@^20.12.12":
-  version "20.12.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.12.tgz#7cbecdf902085cec634fdb362172dfe12b8f2050"
-  integrity sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==
+"@types/node@^20.14.9":
+  version "20.14.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.9.tgz#12e8e765ab27f8c421a1820c99f5f313a933b420"
+  integrity sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==
   dependencies:
     undici-types "~5.26.4"
 
@@ -46,29 +46,29 @@ fsevents@2.3.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
-playwright-core@1.44.1:
-  version "1.44.1"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.44.1.tgz#53ec975503b763af6fc1a7aa995f34bc09ff447c"
-  integrity sha512-wh0JWtYTrhv1+OSsLPgFzGzt67Y7BE/ZS3jEqgGBlp2ppp1ZDj8c+9IARNW4dwf1poq5MgHreEM2KV/GuR4cFA==
+playwright-core@1.45.1:
+  version "1.45.1"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.45.1.tgz#549a2701556b58245cc75263f9fc2795c1158dc1"
+  integrity sha512-LF4CUUtrUu2TCpDw4mcrAIuYrEjVDfT1cHbJMfwnE2+1b8PZcFzPNgvZCvq2JfQ4aTjRCCHw5EJ2tmr2NSzdPg==
 
-playwright@1.44.1:
-  version "1.44.1"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.44.1.tgz#5634369d777111c1eea9180430b7a184028e7892"
-  integrity sha512-qr/0UJ5CFAtloI3avF95Y0L1xQo6r3LQArLIg/z/PoGJ6xa+EwzrwO5lpNr/09STxdHuUoP2mvuELJS+hLdtgg==
+playwright@1.45.1:
+  version "1.45.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.45.1.tgz#aaa6b0d6db14796b599d80c6679e63444e942534"
+  integrity sha512-Hjrgae4kpSQBr98nhCj3IScxVeVUixqj+5oyif8TdIn2opTCPEzqAqNMeK42i3cWDCVu9MI+ZsGWw+gVR4ISBg==
   dependencies:
-    playwright-core "1.44.1"
+    playwright-core "1.45.1"
   optionalDependencies:
     fsevents "2.3.2"
 
-prettier@^3.2.5:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.5.tgz#e52bc3090586e824964a8813b09aba6233b28368"
-  integrity sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==
+prettier@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.2.tgz#03ff86dc7c835f2d2559ee76876a3914cec4a90a"
+  integrity sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==
 
-typescript@^5.4.5:
-  version "5.4.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
-  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
+typescript@^5.5.3:
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.3.tgz#e1b0a3c394190838a0b168e771b0ad56a0af0faa"
+  integrity sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==
 
 undici-types@~5.26.4:
   version "5.26.5"

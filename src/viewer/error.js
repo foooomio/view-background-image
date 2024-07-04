@@ -8,8 +8,7 @@ export function showError(error) {
   $('error').classList.remove('hidden');
   $('nav').classList.add('hidden');
 
-  const [firefox, version] = navigator.userAgent.match(/Firefox\/(\d+)/) ?? [];
-  if (firefox != null && Number(version) < 127) {
+  if (navigator.userAgent.includes('Gecko')) {
     $('error-firefox').classList.remove('hidden');
   }
 }

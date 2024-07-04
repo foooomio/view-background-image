@@ -1,18 +1,15 @@
 'use strict';
 
-chrome.contextMenus.create(
-  {
-    contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
-    documentUrlPatterns: ['http://*/*', 'https://*/*', 'file:///*/*'],
-    id: 'background_img',
-    title: chrome.i18n.getMessage('extName'),
-  },
-  () => {
-    if (chrome.runtime.lastError) {
-      console.log(chrome.runtime.lastError);
-    }
-  },
-);
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.contextMenus.removeAll(() => {
+    chrome.contextMenus.create({
+      contexts: ['page', 'frame', 'selection', 'link', 'editable', 'image'],
+      documentUrlPatterns: ['http://*/*', 'https://*/*', 'file:///*/*'],
+      id: 'background_img',
+      title: chrome.i18n.getMessage('extName'),
+    });
+  });
+});
 
 const cache = new Map();
 

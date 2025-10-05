@@ -2,6 +2,7 @@
 *.log*
 node_modules/
 
+/src/manifest.json
 /tmp/
 /dist/
 

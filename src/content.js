@@ -85,13 +85,20 @@ if (chrome.runtime) {
   let x = 0;
   let y = 0;
 
-  document.addEventListener('contextmenu', (event) => {
-    if (event.target instanceof Element) {
-      root = event.target.ownerDocument;
-    }
-    x = event.clientX;
-    y = event.clientY;
-  });
+  window.addEventListener(
+    'contextmenu',
+    (event) => {
+      if (event.shiftKey) {
+        event.stopPropagation();
+      }
+      if (event.target instanceof Element) {
+        root = event.target.ownerDocument;
+      }
+      x = event.clientX;
+      y = event.clientY;
+    },
+    { capture: true },
+  );
 
   chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     sendResponse([...getBackgroundImages(root, x, y)]);

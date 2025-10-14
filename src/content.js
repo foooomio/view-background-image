@@ -60,10 +60,13 @@ function getComputedBackgroundImages(element, pseudo) {
     style.getPropertyValue('background-image'),
     style.getPropertyValue('content'),
   ];
+  /** @type {Set<string>} */
   const images = new Set();
   for (const value of values) {
     for (const [, url] of value.matchAll(/url\("(.+?)"\)/g)) {
-      images.add(url.replaceAll('\\"', '"'));
+      if (url) {
+        images.add(url.replaceAll('\\"', '"'));
+      }
     }
   }
   return images;
@@ -100,7 +103,7 @@ if (chrome.runtime) {
     { capture: true },
   );
 
-  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  chrome.runtime.onMessage.addListener((_message, _sender, sendResponse) => {
     sendResponse([...getBackgroundImages(root, x, y)]);
   });
 }

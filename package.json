@@ -13,10 +13,10 @@
     "format-check": "prettier --check ."
   },
   "devDependencies": {
-    "@playwright/test": "^1.45.1",
-    "@types/chrome": "^0.0.268",
-    "@types/node": "^20.14.9",
-    "prettier": "^3.3.2",
-    "typescript": "^5.5.3"
+    "@playwright/test": "^1.56.0",
+    "@types/chrome": "^0.1.24",
+    "@types/node": "^24.7.2",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
   }
 }

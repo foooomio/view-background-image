@@ -20,7 +20,7 @@ test('locales', async (t) => {
     await t.test(locale, async (t) => {
       const { default: messages } = await import(
         import.meta.resolve(`../src/_locales/${locale}/messages.json`),
-        { assert: { type: 'json' } }
+        { with: { type: 'json' } }
       );
 
       for (const key of keys) {

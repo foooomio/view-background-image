@@ -13,7 +13,7 @@ chrome.runtime.onInstalled.addListener(() => {
 
 const cache = new Map();
 
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   sendResponse(cache.get(message));
 });
 

@@ -1,6 +1,12 @@
 import { test, expect } from '@playwright/test';
 import { basename } from 'node:path';
 
+declare function getBackgroundImages(
+  root: Document | ShadowRoot,
+  x: number,
+  y: number,
+): Set<string>;
+
 interface TestCase {
   title: string;
   point: [x: number, y: number];
@@ -62,7 +68,6 @@ for (const { title, point, expected, skip } of testCases) {
     });
 
     const actual = await page.evaluate(
-      // @ts-ignore
       ([x, y]) => [...getBackgroundImages(document, x, y)],
       point,
     );

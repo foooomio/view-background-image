@@ -56,16 +56,24 @@ function getBackgroundImages(root, x, y) {
  */
 function getComputedBackgroundImages(element, pseudo) {
   const style = getComputedStyle(element, pseudo);
+  if (!style) return new Set();
+
   const values = [
     style.getPropertyValue('background-image'),
     style.getPropertyValue('content'),
   ];
   /** @type {Set<string>} */
   const images = new Set();
+  const urlRegex = /url\(\s*(['"]?)(.*?)\1\s*\)/g;
+
   for (const value of values) {
-    for (const [, url] of value.matchAll(/url\("(.+?)"\)/g)) {
+    if (!value || value === 'none') continue;
+
+    for (const match of value.matchAll(urlRegex)) {
+      let url = match[2];
       if (url) {
-        images.add(url.replaceAll('\\"', '"'));
+        url = url.replace(/\\(.)/g, '$1');
+        images.add(url);
       }
     }
   }

@@ -5,8 +5,6 @@ import fs from 'node:fs/promises';
 const keys = [
   'extName',
   'extDescription',
-  'review',
-  'donation',
   'security',
   'reload',
   'failure',

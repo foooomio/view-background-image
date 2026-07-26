@@ -5,22 +5,16 @@
   "extDescription": {
     "message": "Aggiunge «Visualizza immagine di sfondo» al menu contestuale."
   },
-  "review": {
-    "message": "Revisione"
-  },
-  "donation": {
-    "message": "Donazione"
-  },
   "security": {
-    "message": "L'estensione non può essere eseguita su pagine speciali."
+    "message": "A causa delle restrizioni del browser, le estensioni non possono essere eseguite su determinate pagine speciali."
   },
   "reload": {
-    "message": "Ricarica le pagine dopo aver installato o aggiornato l'estensione."
+    "message": "Ricarica la pagina dopo aver installato o aggiornato l'estensione."
   },
   "failure": {
     "message": "Impossibile visualizzare le immagini di sfondo"
   },
   "report": {
-    "message": "Segnala un problema?"
+    "message": "Segnala un problema"
   }
 }

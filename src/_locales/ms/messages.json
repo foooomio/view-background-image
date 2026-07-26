@@ -3,24 +3,18 @@
     "message": "Lihat Imej Latar Belakang"
   },
   "extDescription": {
-    "message": "Menambahkan “Lihat Imej Latar Belakang” pada menu konteks."
-  },
-  "review": {
-    "message": "Semakan"
-  },
-  "donation": {
-    "message": "Derma"
+    "message": "Menambah “Lihat Imej Latar Belakang” pada menu konteks."
   },
   "security": {
-    "message": "Sambungan tidak dibenarkan untuk dijalankan pada halaman khas."
+    "message": "Disebabkan oleh sekatan pelayar, sambungan tidak boleh berjalan pada halaman khas tertentu."
   },
   "reload": {
-    "message": "Muat semula halaman selepas memasang atau mengemas kini sambungan."
+    "message": "Sila muat semula halaman selepas memasang atau mengemas kini sambungan."
   },
   "failure": {
-    "message": "Tidak dapat melihat imej latar belakang"
+    "message": "Imej latar belakang tidak dapat dipaparkan"
   },
   "report": {
-    "message": "Laporkan masalah?"
+    "message": "Laporkan masalah"
   }
 }

@@ -5,22 +5,16 @@
   "extDescription": {
     "message": "Adiciona “Ver imagem de fundo” ao menu de contexto."
   },
-  "review": {
-    "message": "Análise"
-  },
-  "donation": {
-    "message": "Doação"
-  },
   "security": {
-    "message": "A extensão não pode ser executada em páginas especiais."
+    "message": "Devido a restrições do navegador, as extensões não podem funcionar em determinadas páginas especiais."
   },
   "reload": {
-    "message": "Recarregar páginas depois de instalar ou atualizar a extensão."
+    "message": "Recarregue a página depois de instalar ou atualizar a extensão."
   },
   "failure": {
-    "message": "Não é possível visualizar imagens de fundo"
+    "message": "Não é possível exibir as imagens de fundo"
   },
   "report": {
-    "message": "Informar um problema?"
+    "message": "Relatar um problema"
   }
 }

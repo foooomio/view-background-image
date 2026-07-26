@@ -3,24 +3,18 @@
     "message": "Achtergrondafbeelding bekijken"
   },
   "extDescription": {
-    "message": "Voegt „Achtergrondafbeelding bekijken” toe aan het contextmenu."
-  },
-  "review": {
-    "message": "Beoordeling"
-  },
-  "donation": {
-    "message": "Donatie"
+    "message": "Voegt “Achtergrondafbeelding bekijken” toe aan het contextmenu."
   },
   "security": {
-    "message": "De extensie mag niet op speciale pagina's worden uitgevoerd."
+    "message": "Vanwege browserbeperkingen kunnen extensies niet worden uitgevoerd op bepaalde speciale pagina's."
   },
   "reload": {
-    "message": "Laad pagina's opnieuw nadat u de extensie hebt geïnstalleerd of bijgewerkt."
+    "message": "Laad de pagina opnieuw nadat de extensie is geïnstalleerd of bijgewerkt."
   },
   "failure": {
-    "message": "Kan achtergrondafbeeldingen niet bekijken"
+    "message": "Achtergrondafbeeldingen kunnen niet worden bekeken"
   },
   "report": {
-    "message": "Een probleem melden?"
+    "message": "Een probleem melden"
   }
 }

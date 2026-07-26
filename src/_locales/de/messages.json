@@ -5,22 +5,16 @@
   "extDescription": {
     "message": "Fügt „Hintergrundbild anzeigen“ zum Kontextmenü hinzu."
   },
-  "review": {
-    "message": "Rezension"
-  },
-  "donation": {
-    "message": "Spende"
-  },
   "security": {
-    "message": "ADie Erweiterung darf nicht auf speziellen Seiten ausgeführt werden."
+    "message": "Aufgrund von Browserbeschränkungen können Erweiterungen auf bestimmten speziellen Seiten nicht ausgeführt werden."
   },
   "reload": {
-    "message": "Laden Sie die Seiten nach der Installation oder Aktualisierung der Erweiterung neu."
+    "message": "Bitte laden Sie die Seite nach der Installation oder Aktualisierung der Erweiterung neu."
   },
   "failure": {
-    "message": "Das Hintergrundbild konnte nicht abgerufen werden"
+    "message": "Hintergrundbilder können nicht angezeigt werden"
   },
   "report": {
-    "message": "Ein Problem melden?"
+    "message": "Problem melden"
   }
 }

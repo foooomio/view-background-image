@@ -1,26 +1,20 @@
 {
   "extName": {
-    "message": "顯示背景圖像"
+    "message": "檢視背景圖片"
   },
   "extDescription": {
-    "message": "將「顯示背景圖像」新增至上下文功能表。"
-  },
-  "review": {
-    "message": "評價"
-  },
-  "donation": {
-    "message": "捐款"
+    "message": "在右鍵選單中新增「檢視背景圖片」。"
   },
   "security": {
-    "message": "不允許在特殊頁面上運行擴充功能。"
+    "message": "由於瀏覽器限制，擴充功能無法在某些特殊頁面上執行。"
   },
   "reload": {
-    "message": "請在安裝或更新擴充功能後重新載入頁面。"
+    "message": "安裝或更新擴充功能後，請重新載入頁面。"
   },
   "failure": {
-    "message": "無法顯示背景圖像"
+    "message": "無法顯示背景圖片"
   },
   "report": {
-    "message": "報告問題？"
+    "message": "回報問題"
   }
 }

@@ -3,24 +3,18 @@
     "message": "Rodyti fono paveikslėlį"
   },
   "extDescription": {
-    "message": "Į kontekstinį meniu įtraukite „Rodyti fono paveikslėlį“."
-  },
-  "review": {
-    "message": "Apžvalga"
-  },
-  "donation": {
-    "message": "Donorystė"
+    "message": "Prideda „Rodyti fono paveikslėlį“ į kontekstinį meniu."
   },
   "security": {
-    "message": "Pratęsimo neleidžiama paleisti specialiuose puslapiuose."
+    "message": "Dėl naršyklės apribojimų plėtiniai negali veikti tam tikruose specialiuose puslapiuose."
   },
   "reload": {
-    "message": "Įdiegę arba atnaujinę plėtinį iš naujo įkelkite puslapius."
+    "message": "Įdiegę arba atnaujinę plėtinį, iš naujo įkelkite puslapį."
   },
   "failure": {
-    "message": "Negalima rodyti fono paveikslėlio"
+    "message": "Nepavyksta parodyti fono paveikslėlių"
   },
   "report": {
-    "message": "Pranešti apie problemą?"
+    "message": "Pranešti apie problemą"
   }
 }

@@ -5,22 +5,16 @@
   "extDescription": {
     "message": "Pridá „Zobraziť obrázok na pozadí“ do kontextovej ponuky."
   },
-  "review": {
-    "message": "Preskúmanie"
-  },
-  "donation": {
-    "message": "Darcovstvo"
-  },
   "security": {
-    "message": "Rozšírenie sa nesmie spúšťať na špeciálnych stránkach."
+    "message": "Z dôvodu obmedzení prehliadača nemôžu rozšírenia fungovať na niektorých špeciálnych stránkach."
   },
   "reload": {
-    "message": "Opätovné načítanie stránok po inštalácii alebo aktualizácii rozšírenia."
+    "message": "Po inštalácii alebo aktualizácii rozšírenia znova načítajte stránku."
   },
   "failure": {
-    "message": "Nie je možné zobraziť obrázky na pozadí"
+    "message": "Obrázky na pozadí sa nedajú zobraziť"
   },
   "report": {
-    "message": "Nahlásiť problém?"
+    "message": "Nahlásiť problém"
   }
 }

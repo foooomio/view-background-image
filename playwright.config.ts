@@ -1,12 +1,14 @@
 import { defineConfig, devices } from '@playwright/test';
 
+const { CI } = process.env;
+
 export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
-  forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
-  reporter: process.env.CI ? 'github' : 'list',
+  forbidOnly: !!CI,
+  retries: CI ? 2 : 0,
+  workers: CI ? 1 : '50%',
+  reporter: CI ? 'github' : 'list',
   projects: [
     {
       name: 'chromium',

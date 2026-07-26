@@ -29,11 +29,7 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: I tried the solutions below.
+        - label: I have reloaded the pages after installing the extension.
           required: true
-  - type: markdown
-    attributes:
-      value: |
-        - Reload pages
-        - Restart browser
-        - (Firefox only) [Enable Permissions > Access your data for all websites](https://github.com/foooomio/view-background-image/issues/39)
+        - label: I have restarted the browser.
+          required: true

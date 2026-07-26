@@ -9,12 +9,10 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
-        with:
-          node-version: 24
-      - run: yarn install --frozen-lockfile
-      - run: yarn tsc
-      - run: yarn format-check
-      - run: yarn playwright install --with-deps
-      - run: yarn playwright test
+      - uses: actions/checkout@v7
+      - uses: jdx/mise-action@v4
+      - run: pnpm ci
+      - run: pnpm exec tsc
+      - run: pnpm exec playwright install --with-deps
+      - run: pnpm run format-check
+      - run: pnpm run test

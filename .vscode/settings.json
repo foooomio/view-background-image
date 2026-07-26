@@ -1,4 +1,21 @@
 {
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.readonlyInclude": {
+    "**/pnpm-lock.yaml": true
+  },
+  "search.exclude": {
+    "**/pnpm-lock.yaml": true
+  },
+  "cSpell.words": ["foooomio", "xlink"],
+  "json.schemas": [
+    {
+      "fileMatch": ["/src/manifest.chrome.json"],
+      "url": "https://www.schemastore.org/chrome-manifest.json"
+    },
+    {
+      "fileMatch": ["/src/manifest.firefox.json"],
+      "url": "https://www.schemastore.org/webextension.json"
+    }
+  ]
 }

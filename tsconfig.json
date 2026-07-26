@@ -1,32 +1,8 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    // Environment Settings
-    "module": "esnext",
-    "target": "esnext",
-    "types": ["chrome"],
-
-    // Stricter Typechecking Options
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-
-    // Style Options
-    "noImplicitReturns": true,
-    "noImplicitOverride": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noPropertyAccessFromIndexSignature": true,
-
-    // Recommended Options
-    "strict": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true,
-
-    // Other Options
-    "allowJs": true,
-    "checkJs": true,
-    "noEmit": true
+    "module": "nodenext",
+    "types": ["node"]
   },
-  "include": ["src/**/*.js"]
+  "include": ["**/*.ts"]
 }

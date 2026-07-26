@@ -14,13 +14,19 @@ find . -name .DS_Store -delete
 
 # for Chrome
 ./scripts/manifest.sh chrome
-zip -r "dist/${NAME}-${VERSION}-chrome.zip" src -x src/manifest.*.json
+zip \
+  -r "dist/${NAME}-${VERSION}-chrome.zip" src \
+  -x src/manifest.*.json \
+  -x tsconfig.json
 
 # for Firefox
 ./scripts/manifest.sh firefox
 (
   cd src
-  zip -r "../dist/${NAME}-${VERSION}-firefox.zip" ./* -x manifest.*.json
+  zip \
+    -r "../dist/${NAME}-${VERSION}-firefox.zip" ./* \
+    -x manifest.*.json \
+    -x tsconfig.json
 )
 
 ./scripts/manifest.sh chrome

@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "types": ["chrome"],
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": ["**/*.js"]
+}

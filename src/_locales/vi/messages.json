@@ -1,26 +1,20 @@
 {
   "extName": {
-    "message": "Xem ảnh nền"
+    "message": "Xem Hình Nền"
   },
   "extDescription": {
-    "message": "Thêm “Xem hình nền” vào menu ngữ cảnh."
-  },
-  "review": {
-    "message": "Ôn tập"
-  },
-  "donation": {
-    "message": "Quyên góp"
+    "message": "Thêm “Xem Hình Nền” vào menu ngữ cảnh."
   },
   "security": {
-    "message": "Tiện ích mở rộng không được phép chạy trên các trang đặc biệt."
+    "message": "Do hạn chế của trình duyệt, tiện ích mở rộng không thể chạy trên một số trang đặc biệt."
   },
   "reload": {
-    "message": "Tải lại trang sau khi cài đặt hoặc cập nhật tiện ích mở rộng."
+    "message": "Vui lòng tải lại trang sau khi cài đặt hoặc cập nhật tiện ích mở rộng."
   },
   "failure": {
-    "message": "Không thể xem hình nền"
+    "message": "Không thể hiển thị hình nền"
   },
   "report": {
-    "message": "Báo cáo một vấn đề?"
+    "message": "Báo cáo sự cố"
   }
 }

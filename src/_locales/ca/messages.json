@@ -5,22 +5,16 @@
   "extDescription": {
     "message": "Afegeix «Visualitza la imatge de fons» al menú contextual."
   },
-  "review": {
-    "message": "Revisió"
-  },
-  "donation": {
-    "message": "Donació"
-  },
   "security": {
-    "message": "L'extensió no es pot executar en pàgines especials."
+    "message": "A causa de les restriccions del navegador, les extensions no poden funcionar en determinades pàgines especials."
   },
   "reload": {
-    "message": "Torneu a carregar les pàgines després d'instal·lar o actualitzar l'extensió."
+    "message": "Torneu a carregar la pàgina després d'instal·lar o actualitzar l'extensió."
   },
   "failure": {
-    "message": "No es poden veure imatges de fons"
+    "message": "No es poden mostrar les imatges de fons"
   },
   "report": {
-    "message": "Informar d'un problema?"
+    "message": "Informa d'un problema"
   }
 }

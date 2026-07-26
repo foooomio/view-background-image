@@ -1,6 +1,9 @@
 import { $ } from './utils.js';
 
 export function init() {
+  const dir = chrome.i18n.getMessage('@@bidi_dir');
+  document.documentElement.setAttribute('dir', dir);
+
   const extName = chrome.i18n.getMessage('extName');
   document.title = extName;
   $('h1').textContent = extName;

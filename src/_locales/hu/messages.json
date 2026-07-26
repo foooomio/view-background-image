@@ -3,24 +3,18 @@
     "message": "Háttérkép megjelenítése"
   },
   "extDescription": {
-    "message": "Hozzáadja a „Háttérkép megtekintése” elemet a helyi menühöz."
-  },
-  "review": {
-    "message": "Felülvizsgálat"
-  },
-  "donation": {
-    "message": "Adomány"
+    "message": "Hozzáadja a „Háttérkép megjelenítése” elemet a helyi menühöz."
   },
   "security": {
-    "message": "A bővítmény nem futhat speciális oldalakon."
+    "message": "A böngésző korlátozásai miatt a bővítmények bizonyos speciális oldalakon nem futhatnak."
   },
   "reload": {
-    "message": "A bővítmény telepítése vagy frissítése után töltse be újra az oldalakat."
+    "message": "Kérjük, töltse be újra az oldalt a bővítmény telepítése vagy frissítése után."
   },
   "failure": {
-    "message": "Nem lehet megtekinteni a háttérképeket"
+    "message": "A háttérképek nem jeleníthetők meg"
   },
   "report": {
-    "message": "Hibabejelentés?"
+    "message": "Probléma jelentése"
   }
 }

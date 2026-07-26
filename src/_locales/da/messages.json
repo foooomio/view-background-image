@@ -3,24 +3,18 @@
     "message": "Vis baggrundsbillede"
   },
   "extDescription": {
-    "message": "Tilføjer »Vis baggrundsbillede« til kontekstmenuen."
-  },
-  "review": {
-    "message": "Anmeldelse"
-  },
-  "donation": {
-    "message": "Donation"
+    "message": "Tilføjer »Vis baggrundsbillede« til genvejsmenuen."
   },
   "security": {
-    "message": "Udvidelsen må ikke køre på særlige sider."
+    "message": "På grund af browserbegrænsninger kan udvidelser ikke køre på visse specielle sider."
   },
   "reload": {
-    "message": "Genindlæs sider efter installation eller opdatering af udvidelsen."
+    "message": "Genindlæs siden, når udvidelsen er installeret eller opdateret."
   },
   "failure": {
-    "message": "Kan ikke se baggrundsbilleder"
+    "message": "Baggrundsbillederne kan ikke vises"
   },
   "report": {
-    "message": "Rapporter et problem?"
+    "message": "Rapportér et problem"
   }
 }

@@ -5,22 +5,16 @@
   "extDescription": {
     "message": "Menambahkan “Lihat Gambar Latar Belakang” ke menu konteks."
   },
-  "review": {
-    "message": "Tinjauan"
-  },
-  "donation": {
-    "message": "Sumbangan"
-  },
   "security": {
-    "message": "Ekstensi tidak diperbolehkan berjalan pada halaman khusus."
+    "message": "Karena pembatasan browser, ekstensi tidak dapat berjalan di halaman khusus tertentu."
   },
   "reload": {
     "message": "Muat ulang halaman setelah menginstal atau memperbarui ekstensi."
   },
   "failure": {
-    "message": "Tidak dapat melihat gambar latar belakang"
+    "message": "Gambar latar belakang tidak dapat ditampilkan"
   },
   "report": {
-    "message": "Laporkan masalah?"
+    "message": "Laporkan masalah"
   }
 }

@@ -3,24 +3,18 @@
     "message": "Näytä taustakuva"
   },
   "extDescription": {
-    "message": "Lisää ”Näytä taustakuva” kontekstivalikkoon."
-  },
-  "review": {
-    "message": "Arvostelu"
-  },
-  "donation": {
-    "message": "Lahjoitus"
+    "message": "Lisää ”Näytä taustakuva” pikavalikkoon."
   },
   "security": {
-    "message": "Laajennuksia ei saa käyttää erikoissivuilla."
+    "message": "Selaimen rajoitusten vuoksi laajennukset eivät voi toimia tietyillä erikoissivuilla."
   },
   "reload": {
-    "message": "Lataa sivut uudelleen laajennuksen asentamisen tai päivityksen jälkeen."
+    "message": "Lataa sivu uudelleen laajennuksen asennuksen tai päivityksen jälkeen."
   },
   "failure": {
-    "message": "Taustakuvia ei voi katsella"
+    "message": "Taustakuvia ei voi näyttää"
   },
   "report": {
-    "message": "Ilmoita ongelma?"
+    "message": "Ilmoita ongelmasta"
   }
 }

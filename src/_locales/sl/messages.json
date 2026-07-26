@@ -5,22 +5,16 @@
   "extDescription": {
     "message": "V kontekstni meni doda „Ogled slike ozadja“."
   },
-  "review": {
-    "message": "Pregled"
-  },
-  "donation": {
-    "message": "Donacija"
-  },
   "security": {
-    "message": "Razširitve ni dovoljeno izvajati na posebnih straneh."
+    "message": "Zaradi omejitev brskalnika razširitve na nekaterih posebnih straneh ne morejo delovati."
   },
   "reload": {
-    "message": "Ponovno naložite strani po namestitvi ali posodobitvi razširitve."
+    "message": "Po namestitvi ali posodobitvi razširitve ponovno naložite stran."
   },
   "failure": {
-    "message": "Ni mogoče prikazati slike ozadja"
+    "message": "Slik ozadja ni mogoče prikazati"
   },
   "report": {
-    "message": "Prijavite težavo?"
+    "message": "Prijavi težavo"
   }
 }

@@ -3,24 +3,18 @@
     "message": "Vis bakgrunnsbilde"
   },
   "extDescription": {
-    "message": "Legger til «Vis bakgrunnsbilde» i kontekstmenyen."
-  },
-  "review": {
-    "message": "Anmeldelse"
-  },
-  "donation": {
-    "message": "Donasjon"
+    "message": "Legger til «Vis bakgrunnsbilde» i hurtigmenyen."
   },
   "security": {
-    "message": "Utvidelsen er ikke tillatt å kjøre på spesielle sider."
+    "message": "På grunn av nettleserbegrensninger kan ikke utvidelser kjøre på enkelte spesielle sider."
   },
   "reload": {
-    "message": "Last inn sider på nytt etter installasjon eller oppdatering av utvidelsen."
+    "message": "Vennligst last inn siden på nytt etter at utvidelsen er installert eller oppdatert."
   },
   "failure": {
-    "message": "Kan ikke vise bakgrunnsbilder"
+    "message": "Kan ikke vise bakgrunnsbildene"
   },
   "report": {
-    "message": "Vil du rapportere en feil?"
+    "message": "Rapporter et problem"
   }
 }

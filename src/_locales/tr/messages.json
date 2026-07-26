@@ -5,22 +5,16 @@
   "extDescription": {
     "message": "Bağlam menüsüne “Arka Plan Resmini Görüntüle” ekler."
   },
-  "review": {
-    "message": "Gözden geçirmek"
-  },
-  "donation": {
-    "message": "Bağış"
-  },
   "security": {
-    "message": "Uzantının özel sayfalarda çalışmasına izin verilmiyor."
+    "message": "Tarayıcı kısıtlamaları nedeniyle uzantılar bazı özel sayfalarda çalışamaz."
   },
   "reload": {
-    "message": "Uzantıyı yükledikten veya güncelledikten sonra sayfaları yeniden yükleyin."
+    "message": "Lütfen uzantıyı yükledikten veya güncelledikten sonra sayfayı yeniden yükleyin."
   },
   "failure": {
     "message": "Arka plan resimleri görüntülenemiyor"
   },
   "report": {
-    "message": "Sorun bildir?"
+    "message": "Sorun bildir"
   }
 }

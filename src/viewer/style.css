@@ -25,18 +25,6 @@ h1 {
   font-size: 2rem;
 }
 
-#nav a {
-  text-decoration: none;
-}
-
-#nav div {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid var(--text-color);
-  padding: 0.2rem 0.4rem;
-  margin: 0.2rem;
-}
-
 #gallery figure {
   margin: 4rem 8rem;
 }

@@ -3,7 +3,7 @@
     "message": "Afficher l’image de fond"
   },
   "extDescription": {
-    "message": "Ajoute « Afficher l’image de fond » au menu contextuel."
+    "message": "Ajoute « Afficher l’image de fond » au menu contextuel."
   },
   "security": {
     "message": "En raison des restrictions du navigateur, les extensions ne peuvent pas fonctionner sur certaines pages spéciales."

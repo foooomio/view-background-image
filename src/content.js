@@ -1,7 +1,48 @@
 'use strict';
 
 /**
- * @param {Document|ShadowRoot} root
+ * @param {Node} root
+ * @returns {Generator<Element>}
+ */
+function* traverseAllElements(root) {
+  const iterator = document.createNodeIterator(root, NodeFilter.SHOW_ELEMENT);
+
+  /** @type {Node|null} */
+  let currentNode;
+
+  while ((currentNode = iterator.nextNode())) {
+    if (currentNode instanceof Element) {
+      yield currentNode;
+    }
+  }
+}
+
+/**
+ * @param {Element} element
+ * @param {number} x
+ * @param {number} y
+ * @returns {boolean}
+ */
+function isElementAtPoint(element, x, y) {
+  if (element.getClientRects().length === 0) {
+    return false;
+  }
+
+  const rect = element.getBoundingClientRect();
+
+  if (rect.width === 0 || rect.height === 0) {
+    return false;
+  }
+
+  if (x < rect.left || rect.right < x || y < rect.top || rect.bottom < y) {
+    return false;
+  }
+
+  return true;
+}
+
+/**
+ * @param {Node} root
  * @param {number} x > 0
  * @param {number} y > 0
  * @returns {Set<string>}
@@ -14,10 +55,11 @@ function getBackgroundImages(root, x, y) {
     return images;
   }
 
-  for (const element of root.querySelectorAll('*')) {
-    // Hit Testing
-    const rect = element.getBoundingClientRect();
-    if (x < rect.left || rect.right < x || y < rect.top || rect.bottom < y) {
+  // Performance hack
+  document.body.getBoundingClientRect();
+
+  for (const element of traverseAllElements(root)) {
+    if (!isElementAtPoint(element, x, y)) {
       continue;
     }
 

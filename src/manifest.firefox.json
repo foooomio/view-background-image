@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "permissions": ["contextMenus"],
@@ -24,7 +24,10 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "{f1f7b448-d666-46c6-9dfa-3ee4c5c83578}"
+      "id": "{f1f7b448-d666-46c6-9dfa-3ee4c5c83578}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
